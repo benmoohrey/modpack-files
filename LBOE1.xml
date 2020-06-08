@@ -1,0 +1,2997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
+	<Server id="LBOE" abstract="false" name="Little Bit of Everything" newsUrl="about:blank" version="1.12.2" generateList="true" autoConnect="false" revision="1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
+		<Loader type="Forge" version="14.23.5.2854" loadOrder="0"/>
+		<Module name="/dank/null" id="danknull" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/DankNull-1.12.2-1.5.71.jar</URL>
+			<Size>353517</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>997fa6007651d89b0da314f185d8314c</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds the /dank/null items from p455w0rd&apos;s Things 1.10.2 mod</description>
+				<version>1.12.2-1.5.71</version>
+				<url></url>
+				<authors>TheRealp455w0rd</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/DankNull.cfg</URL>
+				<Path>config/DankNull.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>de7660e8077550f85122288c16c7f31b</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Actually Additions" id="actuallyadditions" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/ActuallyAdditions-1.12.2-r149.jar</URL>
+			<Size>2938988</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1bfd81f4f05d9aef096a2cbd0b2f7648</MD5>
+			<Meta>
+				<credits>Author: Ellpeck; Textures and Models: BootyToast, GlenthorLP, canitzp</credits>
+				<description>Do you want Automation? Wireless Transport? Better Machines? A cup o&apos; Coffee? Chests? Better Hoppers? Leaf Blowers? Faster Growth? Plants? Well, Actually Additions has all that and a lot more!</description>
+				<version>1.12.2-r149</version>
+				<url>http://github.com/Ellpeck/ActuallyAdditions</url>
+				<authors>Ellpeck</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/actuallyadditions.cfg</URL>
+				<Path>config/actuallyadditions.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>85bb838ad7c0c83f40578533121142a3</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Actually Baubles" id="actuallybaubles" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/ActuallyBaubles-1.12-1.1.jar</URL>
+			<Size>11604</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>71b8dfb3383bf90c615ff4be27f425b7</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Baubles capability for some Actually Additions gadgets!</description>
+				<version>1.1</version>
+				<url>https://github.com/Jacky1356400/ActuallyBaubles</url>
+				<authors>Jacky1356400</authors>
+			</Meta>
+		</Module>
+		<Module name="Adventure Tools" id="adventurepack" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/adventurepack-1.6.2.jar</URL>
+			<Size>62139</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>45651acc5f61fa643b352620bdd2dee1</MD5>
+			<Meta>
+				<credits>mcjty</credits>
+				<description>Adds adventure themed items aimed at making the game less tedious.</description>
+				<version>1.6.2</version>
+				<url></url>
+				<authors>Brobotato</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/adventurepack.cfg</URL>
+				<Path>config/adventurepack.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>eee6957b6089d1804d8d2797a701c751</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/waila/theme/dark.json</URL>
+				<Path>config/waila/theme/dark.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c4e83e96e2bb99eaa0891514e32c0151</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="AE2 Stuff" id="ae2stuff" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/ae2stuff-0.7.0.4-mc1.12.2.jar</URL>
+			<Size>513374</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>8594b7501c1ecc1bdaaa8ef42b7dbdda</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>0.7.0.4</version>
+				<url>bdew.net</url>
+				<authors>bdew</authors>
+			</Meta>
+		</Module>
+		<Module name="Akashic Tome" id="akashictome" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/AkashicTome-1.2-12.jar</URL>
+			<Size>44663</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b753c7ce93ad8768e3ba3a9f35d16bee</MD5>
+			<Meta>
+				<credits></credits>
+				<description>The book of books.</description>
+				<version>1.2-12</version>
+				<url>http://www.vazkii.us</url>
+				<authors>Vazkii</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/akashictome.cfg</URL>
+				<Path>config/akashictome.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8f94beb5a5d823f4a2b85a794be25ac6</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="AngelRing 2 Bauble" id="flyringbaublemod" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/angelRingToBauble-1.12-0.3.1.50+d4e654e.jar</URL>
+			<Size>44041</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>da672a35350bb77a07b9c65bad992153</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Make the Extra Utils 2 Angel Ring into a bauble</description>
+				<version>0.3.1</version>
+				<url></url>
+				<authors>Portablejim. Art by JamiesWhiteShirt</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/flyringbaublemod.cfg</URL>
+				<Path>config/flyringbaublemod.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1931c2ea9bb8929f111a1710bcafb07d</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="AppleSkin" id="appleskin" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/AppleSkin-mc1.12-1.0.9.jar</URL>
+			<Size>32317</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0e0af1e6f80ea2ee7ecfc2f8f44b897b</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds various food-related HUD improvements</description>
+				<version>1.0.9</version>
+				<url></url>
+				<authors>squeek</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/appleskin.cfg</URL>
+				<Path>config/appleskin.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>5985c69d22b2f08443f7179dcd227f68</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Applied Energistics 2" id="appliedenergistics2" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/appliedenergistics2-rv6-stable-7.jar</URL>
+			<Size>4062630</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b8667d60a761d5b5ae3c8a15192f9e28</MD5>
+			<Meta>
+				<credits>AlgorithmX2</credits>
+				<description>A Mod about Matter, Energy and using them to conquer the world..</description>
+				<version>rv6-stable-7</version>
+				<url>http://ae2.ae-mod.info</url>
+				<authors>AlgorithmX2</authors>
+			</Meta>
+		</Module>
+		<Module name="Aroma1997&apos;s Dimensional World" id="aroma1997sdimension" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/Aroma1997s-Dimensional-World-1.12.2-2.0.0.2.b89.jar</URL>
+			<Size>80721</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a2f1b4b261ed7a685c644fd91c4fd065</MD5>
+			<Meta>
+				<credits>Code by Aroma1997, Textures by Schillaa</credits>
+				<description>This mod adds a new Dimension especially for mining. It is pretty much like the overworld, just different. :-)</description>
+				<version>2.0.0.2.b89</version>
+				<url>http://www.minecraftforum.net/topic/1679684-</url>
+				<authors>Aroma1997, Schillaa</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/aroma1997/aroma1997sdimension.cfg</URL>
+				<Path>config/aroma1997/aroma1997sdimension.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f456d3b259aab1996deb1dcde56c4e27</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/aroma1997/aroma1997sdimension_gen.json</URL>
+				<Path>config/aroma1997/aroma1997sdimension_gen.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>89eaf0bfbed28ac615b90c3d42e4f20a</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Aroma1997Core" id="aroma1997core" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/Aroma1997Core-1.12.2-2.0.0.2.b165.jar</URL>
+			<Size>398657</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>71d19fc0c4c6c67e45c0914c3e846394</MD5>
+			<Meta>
+				<credits>Code by Aroma1997, Textures by Schillaa</credits>
+				<description>This is basically a library used by most my other mods.</description>
+				<version>2.0.0.2.b165</version>
+				<url>http://www.minecraftforum.net/topic/1679684-</url>
+				<authors>Aroma1997, Schillaa</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/aroma1997/aroma1997core.cfg</URL>
+				<Path>config/aroma1997/aroma1997core.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Astral Sorcery" id="astralsorcery" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/astralsorcery-1.12.2-1.10.19.jar</URL>
+			<Size>24931617</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a46a48be36ce03360ca3e0addc1ebc51</MD5>
+			<Meta>
+				<credits>HellFirePvP (code), wiiv (models &amp; textures)</credits>
+				<description>Magic mod that draws power from stars and their constellations</description>
+				<version>1.12.2-1.10.19</version>
+				<url>https://minecraft.curseforge.com/projects/astral-sorcery</url>
+				<authors>HellFirePvP, wiiv</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/astralsorcery/aevitas_ore_perk.cfg</URL>
+				<Path>config/astralsorcery/aevitas_ore_perk.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3cdbca288a189e55ba07dccea735812a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/astralsorcery/amulet_enchantments.cfg</URL>
+				<Path>config/astralsorcery/amulet_enchantments.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ecb3774d0914d15c27e61d9ef7299fe7</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/astralsorcery/fluid_rarities.cfg</URL>
+				<Path>config/astralsorcery/fluid_rarities.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d4aefc0ce67212fe9aac28afaf19f550</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/astralsorcery/herdable_animals_blacklist.cfg</URL>
+				<Path>config/astralsorcery/herdable_animals_blacklist.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>594ea71c85819a79330083be2c266672</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/astralsorcery/mineralis_ritual.cfg</URL>
+				<Path>config/astralsorcery/mineralis_ritual.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3cdbca288a189e55ba07dccea735812a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/astralsorcery/perk_void_trash_replacement.cfg</URL>
+				<Path>config/astralsorcery/perk_void_trash_replacement.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3cdbca288a189e55ba07dccea735812a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/astralsorcery/treasure_shrine.cfg</URL>
+				<Path>config/astralsorcery/treasure_shrine.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3cdbca288a189e55ba07dccea735812a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/astralsorcery.cfg</URL>
+				<Path>config/astralsorcery.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4b786848015e664ee4cf7ff9100af44a</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="AutoRegLib" id="autoreglib" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/AutoRegLib-1.3-32.jar</URL>
+			<Size>108306</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4e5a4b881c27b1e4502a9a16c00882ad</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Automatically item, block, and model registration for mods.</description>
+				<version>1.3-32</version>
+				<url>http://www.vazkii.us</url>
+				<authors>Vazkii</authors>
+			</Meta>
+		</Module>
+		<Module name="B.A.S.E" id="base" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/base-1.12.2-3.13.0.jar</URL>
+			<Size>685028</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>caae1ceb2cbcdc7bd7a6acf078788faf</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Library Mod for the Team Acronym Coders</description>
+				<version>1.12.2-3.13.0</version>
+				<url>http://minecraft.curseforge.com/projects/b-a-s-e</url>
+				<authors>SkySom, Lanse505, Jared, EwyBoy</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/acronym/base/General.cfg</URL>
+				<Path>config/acronym/base/General.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>80bbacdfbdd6b78ee9afc1cfee083ab0</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Bad Wither No Cookie! Reloaded" id="badwithernocookiereloaded" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/badwithernocookiereloaded-1.12.2-3.3.16.jar</URL>
+			<Size>11034</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5f6036b67ea0414ded08f495a53788c6</MD5>
+			<Meta>
+				<credits>Life, the universe, and everything!</credits>
+				<description>A simple mod to silence the Wither and Dragon broadcast sounds.</description>
+				<version>1.12.2-3.3.16</version>
+				<url></url>
+				<authors>droidicus, kreezxil</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/badwithernocookiereloaded.cfg</URL>
+				<Path>config/badwithernocookiereloaded.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2b0e7b8b4ba7117d54bd294662141fc4</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Baubles" id="baubles" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/Baubles-1.12-1.5.2.jar</URL>
+			<Size>108450</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>944dec4ef3fbfd4d498d94a7047af201</MD5>
+			<Meta>
+				<credits>Special thanks to chicken_bones</credits>
+				<description>Adding a touch of bling to Minecraft</description>
+				<version>1.12-1.5.2</version>
+				<url>http://www.minecraftforum.net/topic/2535073-baubles</url>
+				<authors>Azanor</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/baubles.cfg</URL>
+				<Path>config/baubles.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2686fb61e4e9948ba0ed545122c01b43</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="BD Lib" id="bdlib" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/bdlib-1.14.3.12-mc1.12.2.jar</URL>
+			<Size>1962731</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d2b8ba08414ac12737eb5ecbf92a19d9</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>1.14.3.12</version>
+				<url>bdew.net/mods/</url>
+				<authors>bdew</authors>
+			</Meta>
+		</Module>
+		<Module name="Bed Patch" id="bedpatch" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/bedpatch-2.2-1.12.2.jar</URL>
+			<Size>21613</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>336fea80502d84a94a04791c64f1b071</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Quick fix for the stuck in bed issue.</description>
+				<version>2.2-1.12.2</version>
+				<url></url>
+				<authors>Mordenkainen3141</authors>
+			</Meta>
+		</Module>
+		<Module name="Better Builder&apos;s Wands" id="betterbuilderswands" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/BetterBuildersWands-1.12.2-0.13.2.271+5997513.jar</URL>
+			<Size>77866</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fb4283f63a9129ef4611cc92e36de18d</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Wands that allow placing of multiple blocks at a time</description>
+				<version>0.13.2</version>
+				<url></url>
+				<authors>Portablejim</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/betterbuilderswands.cfg</URL>
+				<Path>config/betterbuilderswands.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f0e70f1c2ccb0864d2eb4d38debc713a</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="BetterFps-1.4.8" id="betterfps" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/BetterFps-1.4.8.jar</URL>
+			<Size>155196</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d36f4d3c0f96e99a9a1ad2e8eeda1fc4</MD5>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/betterfps.json</URL>
+				<Path>config/betterfps.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9fafc11a63bc72f6d2cfa5a3e3ebd02b</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Bookshelf" id="bookshelf" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/Bookshelf-1.12.2-2.3.585.jar</URL>
+			<Size>266512</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>004f0b325be5a9e7ad4836c4b9d1d92c</MD5>
+			<Meta>
+				<credits>ChickenBones, CyanideX, iLexiconn, SanAndreasP, VikeStep, jaredlll08</credits>
+				<description>Bookshelf is a core/library mod, which adds new features and tools into the game for other content creators to work with. The primary focus of this project is to make use of the combined strength of the modded community to create wonderful tools that everyone can use.</description>
+				<version>2.3.585</version>
+				<url>http://minecraft.curseforge.com/projects/bookshelf</url>
+				<authors>darkhax, lclc98</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/bookshelf.cfg</URL>
+				<Path>config/bookshelf.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>adcac70c466552a5e87456726483da0c</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Botania" id="botania" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/Botania%20r1.10-361.jar</URL>
+			<Size>13820816</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0bf110280f77f3dd5ac2ccd4fb839d6a</MD5>
+			<Meta>
+				<credits>Azanor, Flaxbeard, Futureazoo, Rorax, Lorc, Adubbz, WTFG33ks, Auric245524, MegaManki, Kain Vinosec, Kihira, mDiyo, Mikeemoo, ChickenBones, PowerCrystals, cpw</credits>
+				<description>Botania is a mod that adds nature magic to Minecraft</description>
+				<version>r1.10-361</version>
+				<url>http://www.botaniamod.net</url>
+				<authors>Vazkii, williewillus, wiiv, dylan4ever</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/botania.cfg</URL>
+				<Path>config/botania.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>4ab6f79026e63c45b20dcb092f369396</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/waila/theme/vanilla.json</URL>
+				<Path>config/waila/theme/vanilla.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>80a3c6c0ace808a710feb8cc9ac03c18</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Ceramics" id="ceramics" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/Ceramics-1.12-1.3.7.jar</URL>
+			<Size>400538</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5992287165b230487f46d8321bb957dd</MD5>
+			<Meta>
+				<credits>Much of the code for clay buckets is based off the Forge universal bucket</credits>
+				<description>Adds a few early game items based on baking clay</description>
+				<version>1.12-1.3.7</version>
+				<url>https://minecraft.curseforge.com/projects/ceramics</url>
+				<authors>KnightMiner</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/ceramics.cfg</URL>
+				<Path>config/ceramics.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1454b5a00ceea11ee368faac10cdbf62</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Chameleon" id="chameleon" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/Chameleon-1.12-4.1.3.jar</URL>
+			<Size>96859</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e42efa8f4fd42d2918128a826b740e98</MD5>
+			<Meta>
+				<credits>By jaquadro</credits>
+				<description>Shared code and render support for mods.  Used by jaquadro&apos;s mods.</description>
+				<version>1.12-4.1.3</version>
+				<url>http://www.jaquadro.com/</url>
+				<authors>jaquadro</authors>
+			</Meta>
+		</Module>
+		<Module name="Chisel" id="chisel" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/Chisel-MC1.12.2-0.2.1.35.jar</URL>
+			<Size>4310011</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>dbda5475859bcffc9f572c5a1506a1f4</MD5>
+			<Meta>
+				<credits>AUTOMATIC_MAIDEN for the original mod,
+asie for porting to 1.7.2,
+and Pokenfenn/Cricket for continuing it in 1.7.
+This mod uses textures from the Painterly Pack: http://painterlypack.net/.</credits>
+				<description>Adds in tons of fancy blocks for decoration, crafted using the Chisel.</description>
+				<version>MC1.12.2-0.2.1.35</version>
+				<url>https://minecraft.curseforge.com/projects/chisel</url>
+				<authors>tterrag, Drullkus, minecreatr</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/chisel.cfg</URL>
+				<Path>config/chisel.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d65738f101457d5ff8530ba30d404da1</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Clumps" id="clumps" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/Clumps-3.1.2.jar</URL>
+			<Size>13792</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e0c4c4f04aeb0e0a48fc7534f9e7d6be</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Clumps xp orbs together .</description>
+				<version>3.1.2</version>
+				<url></url>
+				<authors>Jaredlll08</authors>
+			</Meta>
+		</Module>
+		<Module name="CodeChicken Lib" id="codechickenlib" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/CodeChickenLib-1.12.2-3.2.3.357-universal.jar</URL>
+			<Size>704089</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>12887bccc9b3ca1a151e962e2f2a0235</MD5>
+			<Meta>
+				<credits></credits>
+				<description>CodeChickenLib is a library of systems to help make various aspects of minecraft modding easier. It contains libraries for 3D math and transformations, model rendering, packets, config, colours, asm and a few other things..</description>
+				<version>3.2.3.357</version>
+				<url>http://chickenbones.net/Pages/links.html</url>
+				<authors>ChickenBones, covers1624</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/codechicken/supporters.json</URL>
+				<Path>config/codechicken/supporters.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e3afca7cad44dfe35ccf489d71ec7ad1</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/codechicken/supporters.marker</URL>
+				<Path>config/codechicken/supporters.marker</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>bd7293c755148c5e52e8e3b6a9a935f5</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/codechickenlib.cfg</URL>
+				<Path>config/codechickenlib.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c69eb2586d08040c2d9c1ece8cb61f99</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="CoFH Core" id="cofhcore" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/CoFHCore-1.12.2-4.6.3.27-universal.jar</URL>
+			<Size>847938</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>90efac9c0abffa63c6da1453ceca1d68</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Required for all CoFH Mods. Also provides some customization options for Minecraft.</description>
+				<version>4.6.3.27</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/cofh/core/client.cfg</URL>
+				<Path>config/cofh/core/client.cfg</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>03aed73b331b18ae2f6e10f2ffcf418a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/cofh/core/common.cfg</URL>
+				<Path>config/cofh/core/common.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>90d0fe04c3c484c15b7d3298ec55aa50</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/cofh/core/friends.cfg</URL>
+				<Path>config/cofh/core/friends.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="CoFH World" id="cofhworld" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/CoFHWorld-1.12.2-1.3.1.7-universal.jar</URL>
+			<Size>532040</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c196ade3fe4f33b4d38b4de43326ae2d</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Provides advanced and highly customizable world generation capabilities.</description>
+				<version>1.3.1.7</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/cofh/world/00_minecraft.json</URL>
+				<Path>config/cofh/world/00_minecraft.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3b8a7a5c4d6264c9d7c73fdd2f97a493</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/cofh/world/config.cfg</URL>
+				<Path>config/cofh/world/config.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>10d2344582b31e1420d184003b009fbb</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Comforts" id="comforts" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/comforts-1.12.2-1.4.1.2.jar</URL>
+			<Size>166714</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c67398e16303c222f0c19cf60cb5bd6e</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds sleeping bags and hammocks for portability and daytime napping without setting a new spawn. Comes in 16 different colors!</description>
+				<version>1.12.2-1.4.1.2</version>
+				<url></url>
+				<authors>C4</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/comforts.cfg</URL>
+				<Path>config/comforts.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0c71ddf693b9c891357551110e19524c</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="CommonCapabilities" id="commoncapabilities" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/CommonCapabilities-1.12.2-2.4.4.jar</URL>
+			<Size>361406</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b45a973a0fe7e442cedba19230424438</MD5>
+			<Meta>
+				<credits>kroeserr</credits>
+				<description>Forge Capabilities that can be shared by multiple mods</description>
+				<version>1.12.2-2.4.4</version>
+				<url>https://github.com/CyclopsMC/CommonCapabilities</url>
+				<authors>rubensworks (aka kroeserr)</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/commoncapabilities.cfg</URL>
+				<Path>config/commoncapabilities.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>fe7b90e2a19d365d57791bb8909423ca</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Construct&apos;s Armory" id="conarm" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/conarm-1.12.2-1.2.4.jar</URL>
+			<Size>891955</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4aa4a3ec1f903909bfd0ee4e065fd760</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A Tinkers&apos; Construct add-on for those looking to enter the world of armor</description>
+				<version>1.12.2-1.2.4</version>
+				<url></url>
+				<authors>C4</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/conarm.cfg</URL>
+				<Path>config/conarm.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>87192eccc57df405a8e2cb4d0e5f8ebc</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Controlling" id="controlling" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/Controlling-3.0.7.jar</URL>
+			<Size>27162</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f640a63ddae6419a706e4beaec4a9f31</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Gives people more Control of the key binding screen.</description>
+				<version>3.0.7</version>
+				<url></url>
+				<authors>Jaredlll08</authors>
+			</Meta>
+		</Module>
+		<Module name="Crafting Tweaks" id="craftingtweaks" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/CraftingTweaks_1.12.2-8.1.9.jar</URL>
+			<Size>97854</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ffd1e2b5c4f244f4a7c6d4ee2e4c2090</MD5>
+			<Meta>
+				<credits>BlayTheNinth</credits>
+				<description>Allows you to rotate or clear the crafting matrix by the press of a button, in any (supported) crafting window.</description>
+				<version>8.1.9</version>
+				<url>http://balyware.com</url>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/craftingtweaks.cfg</URL>
+				<Path>config/craftingtweaks.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1e3a51441c71ae714069a2fc69ef77b3</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="CraftTweaker2" id="crafttweaker" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/CraftTweaker2-1.12-4.1.19.jar</URL>
+			<Size>1368377</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>513ae1c980c23ef7be081ad151618320</MD5>
+			<Meta>
+				<credits>Created By StanHebben and Jaredlll08</credits>
+				<description>Customize your minecraft experience!</description>
+				<version>1.12-4.1.19</version>
+				<url>http://minetweaker3.powerofbytes.com</url>
+				<authors>StanHebben, Jaredlll08</authors>
+			</Meta>
+		</Module>
+		<Module name="CTM" id="ctm" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/CTM-MC1.12.2-0.3.3.22.jar</URL>
+			<Size>194281</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>086cd9da4b8c50a9e483c7b580a9c4d8</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Allows resource packs to add connected textures, emissive rendering, and much more.</description>
+				<version>MC1.12.2-0.3.3.22</version>
+				<url>https://minecraft.curseforge.com/projects/ctm</url>
+				<authors>tterrag, Drullkus, minecreatr</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/ctm.cfg</URL>
+				<Path>config/ctm.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ca9092804c3d5576e34098746b2843ff</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Custom Main Menu" id="custommainmenu" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/CustomMainMenu-MC1.12.2-2.0.9.jar</URL>
+			<Size>177791</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0d34d658c07ebe9dd36aba17e59f8d3d</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Allows you to edit the mainmenu using json</description>
+				<version>2.0.9</version>
+				<url></url>
+				<authors>lumien</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/CustomMainMenu/mainmenu.json</URL>
+				<Path>config/CustomMainMenu/mainmenu.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9b550645d792fc1636b339802cdb5a6f</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Cyclops Core" id="cyclopscore" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/CyclopsCore-1.12.2-1.5.0.jar</URL>
+			<Size>1056580</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9d9ea7b3bf7c54fc942fbf4e03715238</MD5>
+			<Meta>
+				<credits>kroeserr, _EeB_</credits>
+				<description>Coremod for EvilCraft, Integrated Dynamics and others.</description>
+				<version>1.12.2-1.5.0</version>
+				<url>https://minecraft.curseforge.com/projects/cyclops-core</url>
+				<authors>rubensworks (aka kroeserr), immortaleeb (aka _EeB_)</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/cyclopscore.cfg</URL>
+				<Path>config/cyclopscore.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>629c536933e381c23724864e9e2091fe</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Diet Hopper" id="diethopper" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/diethopper-1.1.jar</URL>
+			<Size>5222</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1d616cb7b25de3ae44f06e26d18bd07e</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Slims down the bounding box of hoppers to allow you to select objects behind it.</description>
+				<version>1.1</version>
+				<url></url>
+				<authors>RWTema</authors>
+			</Meta>
+		</Module>
+		<Module name="DiscordSuite" id="discordsuite" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/DiscordSuite-2.2.4.jar</URL>
+			<Size>32571</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e72b9dc2e36150e4ada0e7dd90a631a7</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Discord Integration.</description>
+				<version>2.2.4</version>
+				<url></url>
+				<authors>Coded</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/DiscordSuite.cfg</URL>
+				<Path>config/DiscordSuite.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6a5ea34c6afd938672bf997f527a56bf</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Elevator Mod" id="elevatorid" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/ElevatorMod-1.12.2-1.3.11.jar</URL>
+			<Size>107585</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>28fcb5c3201da9fc886d559cdbec6252</MD5>
+			<Meta>
+				<credits>OpenBlocks Team</credits>
+				<description>OpenBlocks&apos; Elevator Block</description>
+				<version>1.12.2-1.3.11</version>
+				<url>https://minecraft.curseforge.com/projects/openblocks-elevator</url>
+				<authors>VsnGamer</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/elevatorid.cfg</URL>
+				<Path>config/elevatorid.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>fc6545e08d47381cebd749c94d185cc9</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/ElevatorMod/ElevatorMod.cfg</URL>
+				<Path>config/ElevatorMod/ElevatorMod.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>89109ee981c9135f7f0d0caa4115694f</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Ender IO" id="enderio" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/EnderIO-1.12.2-5.0.50.jar</URL>
+			<Size>7776763</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d0b5de7fd97aaf791f4a17bd088e1450</MD5>
+			<Meta>
+				<credits>By CrazyPants, with the help of many</credits>
+				<description>Compact conduits, painted things and all sorts of stuff and bling.</description>
+				<version>5.0.50</version>
+				<url>http://enderio.com</url>
+				<authors>CrazyPants, tterrag, HenryLoenwind, MatthiasM, CyanideX, EpicSquid</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/enderio/EnderIO.cfg</URL>
+				<Path>config/enderio/EnderIO.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>207c9c0eb96865cf10415a8ee0076077</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/enderio/enderioconduits.cfg</URL>
+				<Path>config/enderio/enderioconduits.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f16e86344529e737caa2fb05bdac37fe</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/enderio/enderiointegrationforestry.cfg</URL>
+				<Path>config/enderio/enderiointegrationforestry.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>db35e26d6a92a4c61bf7fea6ea4ee123</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/enderio/enderiomachines.cfg</URL>
+				<Path>config/enderio/enderiomachines.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>e05ed29e5a82ac35eb8b6a8d79ed2d0d</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/enderio/enderiopowertools.cfg</URL>
+				<Path>config/enderio/enderiopowertools.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6b7ecf4aa8294b7681438c40cef59183</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/enderio/painter_paint_sources_core.xml</URL>
+				<Path>config/enderio/painter_paint_sources_core.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2dcd1b9ce338ad44e5e21ccfa90078ae</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/enderio/painter_paint_sources_user.xml</URL>
+				<Path>config/enderio/painter_paint_sources_user.xml</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d8e02fc0fbaede6aa859169533ad8083</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="EnderCore" id="endercore" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/EnderCore-1.12.2-0.5.65.jar</URL>
+			<Size>639982</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b1d22f1a4bcf0ec4b22c4805e2f3a05a</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Library mod used by EnderIO, EnderZoo, and others</description>
+				<version>1.12.2-0.5.65</version>
+				<url>http://enderio.com</url>
+				<authors>tterrag, CrazyPants, HenryLoenwind</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/endercore/cropconfig.json</URL>
+				<Path>config/endercore/cropconfig.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f3c479964506e8f9c4ae184de4cdf18f</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/endercore/endercore.cfg</URL>
+				<Path>config/endercore/endercore.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>546456d9ef49be95c494fac5e5590eb1</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="EnderStorage" id="enderstorage" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/EnderStorage-1.12.2-2.4.6.137-universal.jar</URL>
+			<Size>223250</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c66000e24e8c11675db554c644b31bda</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Stores your stuff in the END!</description>
+				<version>2.4.6.137</version>
+				<url>http://www.minecraftforum.net/topic/909223</url>
+				<authors>ChickenBones, covers1624</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/enderstorage.cfg</URL>
+				<Path>config/enderstorage.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b26c33f2f36460686a1882a26172be00</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Environmental Tech" id="environmentaltech" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/environmentaltech-1.12.2-2.0.20.1.jar</URL>
+			<Size>1001848</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ecd45a01612427f81b0520767b475dd9</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Environmental Tech is a mod containing a vast selection of multiblock machines. Ranging from multiblock solar panels, lightning rods to multiblock Void mining machines. This mod is still in the very early stages and has a lot more to come.</description>
+				<version>1.12.2-2.0.20.1</version>
+				<url>http://minecraft.curseforge.com/projects/environmental-tech</url>
+				<authors>ValkyrieofNight</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/environmentaltech/etlunar/main.cfg</URL>
+				<Path>config/environmentaltech/etlunar/main.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>929a77dc19563559d842e57f8225a75a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/environmentaltech/main.cfg</URL>
+				<Path>config/environmentaltech/main.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>82c2dbf1e7c74a717425fa793c6c1f17</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/environmentaltech/multiblocks/void_miner/botanic/tier_1.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/botanic/tier_1.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>45c08bb35771cf6380fe247332daebe8</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/environmentaltech/multiblocks/void_miner/botanic/tier_2.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/botanic/tier_2.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>45c08bb35771cf6380fe247332daebe8</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/environmentaltech/multiblocks/void_miner/botanic/tier_3.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/botanic/tier_3.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>45c08bb35771cf6380fe247332daebe8</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/environmentaltech/multiblocks/void_miner/botanic/tier_4.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/botanic/tier_4.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>45c08bb35771cf6380fe247332daebe8</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/environmentaltech/multiblocks/void_miner/botanic/tier_5.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/botanic/tier_5.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>45c08bb35771cf6380fe247332daebe8</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/environmentaltech/multiblocks/void_miner/botanic/tier_6.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/botanic/tier_6.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>45c08bb35771cf6380fe247332daebe8</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/environmentaltech/multiblocks/void_miner/ore/tier_1.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/ore/tier_1.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b608353ceba7036e3f334a70dc9c49d4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/environmentaltech/multiblocks/void_miner/ore/tier_2.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/ore/tier_2.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>08f099b795a88d896d903b92358199d4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/environmentaltech/multiblocks/void_miner/ore/tier_3.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/ore/tier_3.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>641672b218b2e4c16aa31470f6195497</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/environmentaltech/multiblocks/void_miner/ore/tier_4.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/ore/tier_4.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>34ec4136747337a35b09cff6a5877894</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/environmentaltech/multiblocks/void_miner/ore/tier_5.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/ore/tier_5.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>bccc97927384b8ef3a72b54ee0bc01d6</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/environmentaltech/multiblocks/void_miner/ore/tier_6.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/ore/tier_6.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b4bcf27f88e12866004957a5af64c078</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/environmentaltech/multiblocks/void_miner/resource/tier_1.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/resource/tier_1.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>03f327b0a2844bcbc5837539a7edc41d</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/environmentaltech/multiblocks/void_miner/resource/tier_2.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/resource/tier_2.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>244ca5387ac2232695394dffa6e9bf0a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/environmentaltech/multiblocks/void_miner/resource/tier_3.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/resource/tier_3.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>72cb04921d4dc0198407b3d7170fcb12</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/environmentaltech/multiblocks/void_miner/resource/tier_4.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/resource/tier_4.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>5598d5fc208606195031126f4ac21bc9</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/environmentaltech/multiblocks/void_miner/resource/tier_5.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/resource/tier_5.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0054cb3ecf1128a5c6d25a2e7d8ca82c</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/environmentaltech/multiblocks/void_miner/resource/tier_6.json</URL>
+				<Path>config/environmentaltech/multiblocks/void_miner/resource/tier_6.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>11ec827b3a1a85a40d59b79a98a68d2e</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="ET Lunar" id="etlunar" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/etlunar-1.12.2-2.0.20.1.jar</URL>
+			<Size>63844</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>36c0e72b8e63aa5d497338e6fa74ff95</MD5>
+			<Meta>
+				<credits></credits>
+				<description>ET Lunar is an addon for Environmental Tech adding some lunar themed multiblocks.</description>
+				<version>1.12.2-2.0.20.1</version>
+				<url></url>
+				<authors>ValkyrieofNight</authors>
+			</Meta>
+		</Module>
+		<Module name="Extra Cells 2" id="extracells" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/ExtraCells-1.12.2-2.6.2a.jar</URL>
+			<Size>2563518</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d289ffbb9f618e524ece8a2c944498e0</MD5>
+			<Meta>
+				<credits>Textures by PaleoCrafter and Cyntain</credits>
+				<description>Adds new ME Storage Cells and some other cool stuff to AE 2.</description>
+				<version>2.6.2</version>
+				<url>http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1289077-ae-add-on-m3gas-extracells-2-1-x-2-2-x</url>
+				<authors>M3gaFr3ak, DrummerMC</authors>
+			</Meta>
+		</Module>
+		<Module name="Extra Rails" id="ExtraRails" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/ExtraRails-1.12-1.3.0.jar</URL>
+			<Size>53565</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c8e2e99c7559b775283f867e8e436205</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Additional Minecart rails.</description>
+				<version>1.12-1.3.0</version>
+				<url>http://github.com/shadowfacts/ExtraRails</url>
+				<authors>Shadowfacts</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/shadowfacts/ExtraRails.cfg</URL>
+				<Path>config/shadowfacts/ExtraRails.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>57f47bedf6b5d95a3eb8a27c201d3cc5</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Extra Utilities 2" id="extrautils2" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/extrautils2-1.12-1.9.9.jar</URL>
+			<Size>3226408</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1ea591619e6d5204bf077214868772ef</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A bunch of useful things.</description>
+				<version>${version}</version>
+				<url></url>
+				<authors>RWTema</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/extrautils2.cfg</URL>
+				<Path>config/extrautils2.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8941f55ad950cf45ea80bc5cce630d42</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Extreme Reactors" id="bigreactors" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/ExtremeReactors-1.12.2-0.4.5.67.jar</URL>
+			<Size>1110113</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>92e5cc48aca43add940af096e7694141</MD5>
+			<Meta>
+				<credits>powercrystals, skyboy, King_Lemming, &amp; Calclavia for example code</credits>
+				<description>Adds large, multiblock power generation machines to Minecraft. Compatible with Redstone Flux (RF) and Tesla power. This is a port of the 1.7.10 mod Big Reactors from ErogenousBeef</description>
+				<version>1.12.2-0.4.5.67</version>
+				<url>http://zerono.it/extreme-reactors</url>
+				<authors>ErogenousBeef, ZeroNoRyouki, ABookFreak</authors>
+			</Meta>
+		</Module>
+		<Module name="FastWorkbench" id="fastbench" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/FastWorkbench-1.12.2-1.7.2.jar</URL>
+			<Size>26322</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2a0e8335926fd413521d2432c91842a9</MD5>
+			<Meta>
+				<credits></credits>
+				<description>1 fast boi</description>
+				<version>1.12.2-1.7.2</version>
+				<url></url>
+				<authors>Shadows_of_Fire</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/fastbench.cfg</URL>
+				<Path>config/fastbench.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>094e3989be1fe1427c04922b6fbade1a</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="FoamFix" id="foamfix" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/foamfix-0.10.5-1.12.2.jar</URL>
+			<Size>211210</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ec2829750206833af9ee098c5ddb8e32</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Questionable &quot;performance improvements&quot; that are not in Forge for probably very good reasons.</description>
+				<version>@VERSION@</version>
+				<url>http://asie.pl/Projects/Minecraft/Mods/FoamFix</url>
+				<authors>asiekierka</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/foamfix.cfg</URL>
+				<Path>config/foamfix.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>762bc50c3045846825412f7b8543cc00</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="FTB Library" id="ftblib" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/FTBLib-5.4.3.130.jar</URL>
+			<Size>915679</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>59277aa4c2de5f38dc61c4c113beea6a</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>5.4.3.130</version>
+				<url>http://minecraft.curseforge.com/projects/ftblib</url>
+				<authors>LatvianModder</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/ftblib.cfg</URL>
+				<Path>config/ftblib.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2f1ee26de6ad6fbe938a2b4ef2d0a9d9</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="FTB Utilities" id="ftbutilities" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/FTBUtilities-5.4.0.100.jar</URL>
+			<Size>422510</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6a1f43828fff892220a8b76d7135d771</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>5.4.0.100</version>
+				<url>http://minecraft.curseforge.com/projects/ftb-utilities</url>
+				<authors>LatvianModder</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/ftbutilities.cfg</URL>
+				<Path>config/ftbutilities.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d2044f34923a4e4b098732c105737807</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="FTB Utilities: Backups" id="ftbbackups" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/FTBUtilitiesBackups-1.0.0.5.jar</URL>
+			<Size>42104</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>075328d2801250e6f608a46a94cc1068</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>1.0.0.5</version>
+				<url>http://minecraft.curseforge.com/projects/ftb-utilities-backups</url>
+				<authors>LatvianModder</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/ftbbackups.cfg</URL>
+				<Path>config/ftbbackups.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c87e70f6fc8c391de54dc88eca5bd5b7</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Fullscreen Windowed" id="fw" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/FullscreenWindowed-1.12-1.6.0.jar</URL>
+			<Size>18396</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c7679200bdf1f6cb71361555407a4c7f</MD5>
+			<Meta>
+				<credits>To all the documentation out there, Thank You. Credits to MrWhalerus for 1.12 update</credits>
+				<description>Activates fullscreen windowed mode for Minecraft</description>
+				<version>1.6.0</version>
+				<url>https://github.com/hancin/Fullscreen-Windowed-Minecraft</url>
+				<authors>Hancin</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/fw.cfg</URL>
+				<Path>config/fw.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>28f24543b69c8af8ec690959ebd54e13</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Guide-API" id="guideapi" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/Guide-API-1.12-2.1.8-63.jar</URL>
+			<Size>169528</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>117d3d825059fceb0c1d04f8701beb00</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Simple mod guide creation.</description>
+				<version>1.12-2.1.8-63</version>
+				<url></url>
+				<authors>Tombenpotter, TehNut</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/Guide-API/Guide-API.cfg</URL>
+				<Path>config/Guide-API/Guide-API.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>98d335534c1032db4a6a008cd67565ec</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Immersive Engineering" id="immersiveengineering" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/ImmersiveEngineering-0.12-89.jar</URL>
+			<Size>6542920</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b79a17d68e023e2cab3fcb99fff19f9a</MD5>
+			<Meta>
+				<credits>All the great other Git Contributors, and the nerds on IRC!</credits>
+				<description>A tech based mod focused on realism.</description>
+				<version>0.12-89</version>
+				<url>https://github.com/BluSunrize/ImmersiveEngineering</url>
+				<authors>BluSunrize, Damien A.W. Hazard</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/immersiveengineering.cfg</URL>
+				<Path>config/immersiveengineering.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c0a380f389ef9b59ac990e3cffc094d1</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Immersive Petroleum" id="immersivepetroleum" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/immersivepetroleum-1.12.2-1.1.9.jar</URL>
+			<Size>906018</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>57ba127778e579d10d705f9f8359d2e0</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds oil and oil processing features to Immersive Engineering.</description>
+				<version>1.1.9</version>
+				<url>https://github.com/Flaxbeard/ImmersivePetroleum</url>
+				<authors>Flaxbeard</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/immersivepetroleum.cfg</URL>
+				<Path>config/immersivepetroleum.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>51d9635499890bc296ff4125b7e6a4d4</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Industrial Foregoing" id="industrialforegoing" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/industrialforegoing-1.12.2-1.12.13-237.jar</URL>
+			<Size>1603134</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a9330399f14295d90e4ec3b5bb93f81f</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A small reinvention of Minefactory Reloaded.</description>
+				<version>1.12.13</version>
+				<url>https://minecraft.curseforge.com/projects/industrial-foregoing</url>
+				<authors>Buuz135</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/industrialforegoing.cfg</URL>
+				<Path>config/industrialforegoing.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>aac66c9671271b2e1d0165fb5c78acb6</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Industrial Wires" id="industrialwires" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/IndustrialWires-1.7-36.jar</URL>
+			<Size>1241169</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>55379a7741f7a1e5f0d15f72ba0809b0</MD5>
+			<Meta>
+				<credits>BluSunrize and Mr. Damien Hazard for Immersive Engineering, the IC2 team for IC2</credits>
+				<description>An addon for IndustrialCraft2 and Immersive Engineering that adds IE wires to transfer IC2 power and other fun things!</description>
+				<version>1.7-36</version>
+				<url></url>
+				<authors>malte0811</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/industrialwires.cfg</URL>
+				<Path>config/industrialwires.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ac8b43bfb105888d769e5755649f481f</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="InitialInventory" id="InitialInventory" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/InitialInventory-3.0.0.jar</URL>
+			<Size>7863</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>44a3ebc29fe9531ec290e292d07d7d84</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>3.0.0</version>
+				<url></url>
+				<authors></authors>
+			</Meta>
+		</Module>
+		<Module name="Integrated Dynamics" id="integrateddynamics" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/IntegratedDynamics-1.12.2-1.0.18.jar</URL>
+			<Size>3024218</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>59d36f53c18466967e1674a71cf99de2</MD5>
+			<Meta>
+				<credits>kroeserr, Yulife (textures)</credits>
+				<description>Take full and automated control of your appliances.</description>
+				<version>1.12.2-1.0.18</version>
+				<url>https://minecraft.curseforge.com/projects/integrated-dynamics</url>
+				<authors>rubensworks (aka kroeserr)</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/integrateddynamics.cfg</URL>
+				<Path>config/integrateddynamics.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0bd497ecea966671f7e8d98d24d5d377</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/integrateddynamicscompat.cfg</URL>
+				<Path>config/integrateddynamicscompat.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>fadf093e201f0fc256dc304158829ebc</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Integrated Tunnels" id="integratedtunnels" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/IntegratedTunnels-1.12.2-1.6.10.jar</URL>
+			<Size>484209</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4dcb9b2079097ca6ae15cd723f071f94</MD5>
+			<Meta>
+				<credits>rubensworks (aka kroeserr)</credits>
+				<description>Transfer other stuff over Integrated Dynamics networks</description>
+				<version>1.12.2-1.6.10</version>
+				<url>https://github.com/CyclopsMC/IntegratedTunnels</url>
+				<authors>rubensworks (aka kroeserr)</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/integratedtunnels.cfg</URL>
+				<Path>config/integratedtunnels.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d16cfee460d09c07c824849b932eb48b</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/integratedtunnelscompat.cfg</URL>
+				<Path>config/integratedtunnelscompat.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6bbd6660b6fcad1513e90b0bf896d16e</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Integration Foregoing" id="integrationforegoing" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/IntegrationForegoing-1.12.2-1.9.jar</URL>
+			<Size>172247</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4b2cbad2243b62fc15a712f9159f3bc5</MD5>
+			<Meta>
+				<credits></credits>
+				<description>An addon mod for Industrial Foregoing!</description>
+				<version>1.12.2-1.9</version>
+				<url>https://github.com/JackyyTV/IntegrationForegoing</url>
+				<authors>Jackyy, Buuz135</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/IntegrationForegoing.cfg</URL>
+				<Path>config/IntegrationForegoing.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>88bfbb6e011a2d2ed251752de94f98c6</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Inventory Tweaks" id="InvTweaks" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/InventoryTweaks-1.64+dev.146.jar</URL>
+			<Size>285813</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3c5d428facb0c0bf231c7f14f9fcbe0f</MD5>
+			<Meta>
+				<credits>By Jimeo Wan, updated for Forge by Kobata</credits>
+				<description>Tweaks to inventory handling for ease of use, including sorting and automatic replacement of broken tools or exhausted stacks of items.</description>
+				<version>1.64+dev.146.2180b27</version>
+				<url>https://github.com/Kobata/inventory-tweaks</url>
+				<authors>Jimeo Wan, Kobata</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/InvTweaks/InvTweaks.cfg</URL>
+				<Path>config/InvTweaks/InvTweaks.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>245435cd786fc464024200cae5eb5b8f</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/InvTweaks.cfg</URL>
+				<Path>config/InvTweaks.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0a6637130d97f81784efaf853082f914</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/InvTweaksRules.txt</URL>
+				<Path>config/InvTweaksRules.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9ffe290374808feabfaa72674b68abf9</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/InvTweaksTree.txt</URL>
+				<Path>config/InvTweaksTree.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>faaba88b878a58f92185f79f058ca158</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Iron Backpacks" id="ironbackpacks" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/IronBackpacks-1.12.2-3.0.8-12.jar</URL>
+			<Size>465363</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9fd50b1827b711704c69789aa94ac2ca</MD5>
+			<Meta>
+				<credits>cpw, sapient, #minecraftforge (especially diesieben07), TehNut, tterrag</credits>
+				<description>Adds tiered backpacks and a system of modular upgrades to go with them!</description>
+				<version>1.12.2-3.0.8-12</version>
+				<url></url>
+				<authors>gr8pefish</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/ironbackpacks/blacklist.json</URL>
+				<Path>config/ironbackpacks/blacklist.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>93b0cfd2de60ea750560b1a4f88f26d9</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/ironbackpacks/ironbackpacks.cfg</URL>
+				<Path>config/ironbackpacks/ironbackpacks.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>38f0b0291042d0c651078ea5a1c70e7e</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Iron Chest" id="ironchest" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/ironchest-1.12.2-7.0.72.847.jar</URL>
+			<Size>956692</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>743179bc3a8f50751efbb019acc759a9</MD5>
+			<Meta>
+				<credits>By cpw, based on an original idea by Lishid</credits>
+				<description>New chests with larger sizes, with in-place upgrade items.
+The feature chest is the crystal chest, which is transparent - some inventory contents are visible without opening the chest</description>
+				<version>1.12.2-7.0.67.844</version>
+				<url>http://www.minecraftforum.net/topic/981855-</url>
+				<authors>cpw</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/ironchest.cfg</URL>
+				<Path>config/ironchest.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7b34c4495b7cdcc5143fcc86a795b68a</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Item Scroller" id="itemscroller" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/itemscroller-1.12.2-0.12.0.jar</URL>
+			<Size>70937</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>db24c4e7f1ca27d6b36d5b965cd09e0e</MD5>
+			<Meta>
+				<credits>ChickenBones (original idea, in NEI)</credits>
+				<description>Move items in inventory GUIs by scrolling the mouse wheel over slots with items in them</description>
+				<version>0.12.0</version>
+				<url>http://minecraft.curseforge.com/projects/item-scroller</url>
+				<authors>masa</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/itemscroller.cfg</URL>
+				<Path>config/itemscroller.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>403d01a4d9720a6439beaa0df5c5beef</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="JEI Integration" id="jeiintegration" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/jeiintegration_1.12.2-1.5.1.36.jar</URL>
+			<Size>54046</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>de73cdc5de95a2685e50d90f01c03a50</MD5>
+			<Meta>
+				<credits>A huge thank you to Tonius for originally creating this amazing mod. I hope it lives up to his standards in his absence.</credits>
+				<description>JEI Integrations is the predecessor to NEI Integrations created by Tonius for Minecraft 1.7.10. It adds various tooltips, additional support for recipe handlers in Just Enough Items (JEI) and some various other features (Coming Soon...)</description>
+				<version>1.5.1.36</version>
+				<url>https://minecraft.curseforge.com/projects/jei-integration</url>
+				<authors>SnowShock35</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/jeiintegration.cfg</URL>
+				<Path>config/jeiintegration.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7d493678946a7cf99f632c06c858c4fb</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="JourneyMap" id="journeymap" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/journeymap-1.12.2-5.5.5.jar</URL>
+			<Size>1920463</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d2249af8a61002ee976fcea804e46f3b</MD5>
+			<Meta>
+				<credits></credits>
+				<description>JourneyMap: Real-time map in-game or in a web browser as you explore. JourneyMap API: v1.12-1.4. Built: 2019-08-05-14:29:20.</description>
+				<version>1.12.2-5.5.5</version>
+				<url>http://journeymap.info</url>
+				<authors>techbrew, mysticdrew</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/journeymap_ModInfo.cfg</URL>
+				<Path>config/journeymap_ModInfo.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6e6f74698c472adab0930d8f18fda9c0</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Just Enough Items" id="jei" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/jei_1.12.2-4.15.0.287.jar</URL>
+			<Size>650295</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>20ba0763eb7d35d41f5d5e2f05a6ad21</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Simple recipe and item helper.</description>
+				<version>4.15.0.287</version>
+				<url>https://github.com/mezz/JustEnoughItems</url>
+				<authors>mezz</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/jei/itemBlacklist.cfg</URL>
+				<Path>config/jei/itemBlacklist.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d1aa29b95c320167bb4a663534b04114</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/jei/jei.cfg</URL>
+				<Path>config/jei/jei.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>451a5da1a20729339df9798d09d4e471</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/jei/searchColors.cfg</URL>
+				<Path>config/jei/searchColors.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>585c420ac4e5433c27837a588927a0c0</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Just Enough Resources" id="jeresources" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/JustEnoughResources-1.12.2-0.9.2.60.jar</URL>
+			<Size>222270</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>87a4666549a60d8fb423883dd4ee6232</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adds Resources and Mob Drops to JEI</description>
+				<version>0.9.2</version>
+				<url></url>
+				<authors>way2muchnoise</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/jeresources/jeresources.cfg</URL>
+				<Path>config/jeresources/jeresources.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>75d351a127caee4aa83e65add47dc817</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Lapis Stays in the Enchanting Table" id="csb_ench_table" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/EnchantingTable-1.12-1.1.3.jar</URL>
+			<Size>37704</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>fbfd70a18d887fd9bc08dd25ff91d61a</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Makes the lapis slot on the enchanting table persistent, so your lapis stays put!</description>
+				<version>1.1.3</version>
+				<url>https://minecraft.curseforge.com/projects/lapis-stays-in-the-enchanting-table/</url>
+				<authors>crazysnailboy</authors>
+			</Meta>
+		</Module>
+		<Module name="Light Level Overlay Reloaded" id="llor" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/LLOverlayReloaded-1.1.6-mc1.12.2.jar</URL>
+			<Size>17931</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>23f498874f1596b7a8c167ec4327b360</MD5>
+			<Meta>
+				<credits>Thanks to 4poc for his original version.</credits>
+				<description>A mod visualizes the light level on top of blocks.</description>
+				<version>1.1.6-mc1.12.2</version>
+				<url>www.mmyzd.com</url>
+				<authors>oldjunyi</authors>
+			</Meta>
+		</Module>
+		<Module name="Mantle" id="mantle" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/Mantle-1.12-1.3.3.55.jar</URL>
+			<Size>843486</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>1026f5f8d3c4997831decd9023ca65a6</MD5>
+			<Meta>
+				<credits>mDiyo, Sunstrike</credits>
+				<description>Shared code for Slime Knights mods and others.</description>
+				<version>1.3.3.55</version>
+				<url>https://github.com/SlimeKnights/Mantle</url>
+				<authors>boni, progWML6, Alexbegt</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/dismantler.cfg</URL>
+				<Path>config/dismantler.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>cea6c8aed416bf3a2cb8830e3ba02c7d</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="McJtyLib" id="mcjtylib_ng" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/mcjtylib-1.12-3.5.4.jar</URL>
+			<Size>544856</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>45ac9983da9fd2bc7fe3446b9f4287c1</MD5>
+			<Meta>
+				<credits>diesieben07, for being of constant assistance with my questions on modding and Forge in specific</credits>
+				<description>McJtyLib library for RFTools, Deep Resonance, ...</description>
+				<version>1.12-3.5.4</version>
+				<url></url>
+				<authors>McJty</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/mcjtylib.cfg</URL>
+				<Path>config/mcjtylib.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>c1f506031be7f6d0b7e76efcdb847195</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Mekanism" id="mekanism" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/Mekanism-1.12.2-9.8.1.383.jar</URL>
+			<Size>7859461</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d5ec8eaf21f89bfb2c50cacb9efb1342</MD5>
+			<Meta>
+				<credits>unpairedbracket, CyanideX and many others</credits>
+				<description>Tools and Machines</description>
+				<version>1.12.2-9.8.1.383</version>
+				<url></url>
+				<authors>aidancbrady, thommy101, thiakil, pupnewfster, dizzyd</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/mekanism/BoxBlacklist.txt</URL>
+				<Path>config/mekanism/BoxBlacklist.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>dabdb199f20730c3f6307c8e05cf4893</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/mekanism.cfg</URL>
+				<Path>config/mekanism.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0ca188461b39014994dcea0bcaac5d2f</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Mekanism: Generators" id="mekanismgenerators" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/MekanismGenerators-1.12.2-9.8.1.383.jar</URL>
+			<Size>336247</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>191375630be7b5785bf6639a4186c754</MD5>
+			<Meta>
+				<credits>unpairedbracket, CyanideX and many others</credits>
+				<description>Generators module for Mekanism</description>
+				<version>1.12.2-9.8.1.383</version>
+				<url></url>
+				<authors>aidancbrady, thommy101, thiakil, pupnewfster, dizzyd</authors>
+			</Meta>
+		</Module>
+		<Module name="Mekanism: Tools" id="mekanismtools" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/MekanismTools-1.12.2-9.8.1.383.jar</URL>
+			<Size>158884</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d582562cb55a61ac1ebb9f8b39e27663</MD5>
+			<Meta>
+				<credits>unpairedbracket, CyanideX and many others</credits>
+				<description>Tools module for Mekanism</description>
+				<version>1.12.2-9.8.1.383</version>
+				<url></url>
+				<authors>aidancbrady, thommy101, thiakil, pupnewfster, dizzyd</authors>
+			</Meta>
+		</Module>
+		<Module name="Minecraft Forge" id="forge-14.23.5.2854" depends="" side="BOTH">
+			<Size>100000</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/forge.cfg</URL>
+				<Path>config/forge.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f2ad8aa8e1d642921e4ddbeb5903b8eb</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/forgeChunkLoading.cfg</URL>
+				<Path>config/forgeChunkLoading.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6df43036b4cc4d47d6ca9f23c2be31f1</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/splash.properties</URL>
+				<Path>config/splash.properties</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>84f5e50bf3a1771d84ec8fee6170efa8</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Mod Name Tooltip" id="modnametooltip" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/modnametooltip_1.12.2-1.10.1.jar</URL>
+			<Size>12732</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e36854d3c58af598ab3ce08d6cf0c760</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Shows the mod an ItemStack is from on its tooltip.</description>
+				<version>1.10.1</version>
+				<url>https://github.com/mezz/ModNameTooltip</url>
+				<authors>mezz</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/modnametooltip.cfg</URL>
+				<Path>config/modnametooltip.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6a572b6bd61a7c648daa4eacb750d441</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Morph-o-Tool" id="morphtool" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/Morph-o-Tool-1.2-21.jar</URL>
+			<Size>30619</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a56d6a54721acef7fa4863d4efd20638</MD5>
+			<Meta>
+				<credits></credits>
+				<description>The wrench to end all wrenches.</description>
+				<version>1.2-21</version>
+				<url>http://www.vazkii.us</url>
+				<authors>Vazkii</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/morphtool.cfg</URL>
+				<Path>config/morphtool.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>df01f5e9a13019ac5d73b196f9f351ba</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Morpheus" id="morpheus" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/Morpheus-1.12.2-3.5.106.jar</URL>
+			<Size>21508</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>357dc3701a8c7d4109147c666f6a4300</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Morpheus is a server-only mod that adds sleep voting to a forge based server. When a player sleeps, all other players in the same dimension are notified so it is easier to coordinate.</description>
+				<version>1.12.2-3.5.106</version>
+				<url>http://www.curse.com/mc-mods/Minecraft/morpheus</url>
+				<authors>Quetzi</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/ConfigPush.txt</URL>
+				<Path>config/ConfigPush.txt</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/morpheus.cfg</URL>
+				<Path>config/morpheus.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6cc1e919d5e2d0f6fd11534ee5641f34</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="MTLib" id="mtlib" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/MTLib-3.0.6.jar</URL>
+			<Size>30002</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b46748362c046d70b821121331246aa5</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>3.0.6</version>
+				<url></url>
+				<authors>Jaredlll08</authors>
+			</Meta>
+		</Module>
+		<Module name="Natura" id="natura" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/natura-1.12.2-4.3.2.69.jar</URL>
+			<Size>1142687</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>2310e87658a493970605d416a504e0f9</MD5>
+			<Meta>
+				<credits>Samtrion, tterrag</credits>
+				<description>Heyo, Redwood trees! Chop them all day long!</description>
+				<version>1.12.2-4.3.2.69</version>
+				<url>http://www.minecraftforum.net/forums/mapping-and-modding/minecraft-mods/1294968-natura</url>
+				<authors>mDiyo, Slime Knights</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/natura.cfg</URL>
+				<Path>config/natura.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>793fef194f417eec180f468200901c64</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/NaturaModules.cfg</URL>
+				<Path>config/NaturaModules.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>09b902b65e6e3b295866ec8b398db533</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="NetherPortalFix" id="netherportalfix" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/NetherPortalFix_1.12.1-5.3.17.jar</URL>
+			<Size>109445</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>97ff3e60aa9725cedbc64f19e179f813</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Ensures correct destinations when travelling back and forth through Nether Portals in Multiplayer.</description>
+				<version>5.3.17</version>
+				<url>https://minecraft.curseforge.com/mc-mods/241160/</url>
+				<authors>BlayTheNinth</authors>
+			</Meta>
+		</Module>
+		<Module name="Old Java Warning" id="oldjava" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/OldJavaWarning-1.12.2-1.0.8.jar</URL>
+			<Size>8659</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>941b3bcfb26520d99f9259116f62a24b</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Warns about old Java..</description>
+				<version>1.0.8</version>
+				<url>http://www.darkhax.net</url>
+				<authors>Darkhax</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/oldjavawarning.cfg</URL>
+				<Path>config/oldjavawarning.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d0563743445b4c18b7dc86ce7c27b739</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Open Glider" id="openglider" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/OpenGlider-1.12.1-1.1.0.jar</URL>
+			<Size>109626</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>057ce598bed8e0414d1b2c7ae863a234</MD5>
+			<Meta>
+				<credits>open blocks team, Mystereym, kenzierocks, jamieswhiteshirt</credits>
+				<description>Hang glider!</description>
+				<version>1.12.1-1.1.0</version>
+				<url></url>
+				<authors>gr8pefish</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/openglider.cfg</URL>
+				<Path>config/openglider.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1545b13ba77037d4d6f7a9d5b1acba9d</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="OreExcavation" id="oreexcavation" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/OreExcavation-1.4.140.jar</URL>
+			<Size>180481</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9c7d660f3a6fb5b0a7bbb9c2891bcfad</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Allows players to mine whole veins of ore, cut down whole trees or any other tool based action in one go. Simple easy to understand configs are also provided for mod pack developers</description>
+				<version>1.4.140</version>
+				<url></url>
+				<authors>Funwayguy, Darkosto</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/oreexcavation.cfg</URL>
+				<Path>config/oreexcavation.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6a4161470d321a949656a7d4c37a05b8</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/oreexcavation_groups.json</URL>
+				<Path>config/oreexcavation_groups.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>5f2c1392737cae4173d6ef6283d5cc6a</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/oreexcavation_overrides.json</URL>
+				<Path>config/oreexcavation_overrides.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>51633be9faaa903e12e61a263efad410</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/oreexcavation_shapes.json</URL>
+				<Path>config/oreexcavation_shapes.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ffed27e58bf91a47f770c40f32c866f2</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="OreExcavation Integration" id="oeintegration" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/oeintegration-2.3.4.jar</URL>
+			<Size>25526</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>c80e7dd6384871b970c2cde4e105097a</MD5>
+			<Meta>
+				<credits>thanks to Funwayguy for making OreExcavation</credits>
+				<description>Integrates OE into other mods.</description>
+				<version>2.3.4</version>
+				<url></url>
+				<authors>BloodWorkXGaming</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/oeintegration.cfg</URL>
+				<Path>config/oeintegration.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>95ea228105b4115e5035d2723a79ed01</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="p455w0rd&apos;s Library" id="p455w0rdslib" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/p455w0rdslib-1.12.2-2.2.151.jar</URL>
+			<Size>378508</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>40a846858743ff74ef6365b85eac558c</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Library for containing commmon utilities used across my mods</description>
+				<version>1.12.2-2.2.151</version>
+				<url></url>
+				<authors>TheRealp455w0rd</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/p455w0rdsLib.cfg</URL>
+				<Path>config/p455w0rdsLib.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>30c5f9f3982a67d1c6aed5f511774749</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Placebo" id="placebo" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/Placebo-1.12.2-1.6.0.jar</URL>
+			<Size>76902</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a9ecfa296b2b1203ed5a68ed6c01833a</MD5>
+			<Meta>
+				<credits></credits>
+				<description>1 library boi</description>
+				<version>1.12.2-1.6.0</version>
+				<url></url>
+				<authors>Shadows_of_Fire</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/placebo.cfg</URL>
+				<Path>config/placebo.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ca3ba0a9e62c4e8170d533f22d0cfe84</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Quark" id="quark" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/Quark-r1.6-176.jar</URL>
+			<Size>3178251</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>caf962e9481d0772086344687a1bffd2</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Small things.</description>
+				<version>r1.6-176</version>
+				<url>http://www.vazkii.us</url>
+				<authors>Vazkii, wiiv</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/quark.cfg</URL>
+				<Path>config/quark.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>88e55dde901d7ccbf978785de97475c9</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Quick Leaf Decay" id="quickleafdecay" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/QuickLeafDecay-MC1.12.1-1.2.4.jar</URL>
+			<Size>7074</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e8565fac075a2cef2400ea9bd782ce9c</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Makes leaf decay faster</description>
+				<version>1.2.4</version>
+				<url></url>
+				<authors>lumien</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/quickleafdecay.cfg</URL>
+				<Path>config/quickleafdecay.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>12023523f93811c1e67e786c81d557a0</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Ranged Pumps" id="rangedpumps" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/rangedpumps-0.5.jar</URL>
+			<Size>21519</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>29512482818fe06791e9af63c611e4b2</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Ranged Pumps is a simple mod that adds a pump that pumps liquids in a range</description>
+				<version>0.5</version>
+				<url></url>
+				<authors>Ranged Pumps contributors</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/rangedpumps.cfg</URL>
+				<Path>config/rangedpumps.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>963cd0c4dc29c25649d46bf7d0a64fa7</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="ReAuth" id="reauth" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/reauth-3.6.0.jar</URL>
+			<Size>30446</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>6024686e40df10b8739042ea2dce7f1a</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A Mod to renew your Session</description>
+				<version>3.6.0</version>
+				<url>http://minecraft.curseforge.com/projects/reauth</url>
+				<authors>TechnicianLP</authors>
+			</Meta>
+		</Module>
+		<Module name="Reborn Core" id="reborncore" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/RebornCore-1.12.2-3.15.5.467-universal.jar</URL>
+			<Size>1936262</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d0b630dfae4fac570e745f6b9ac5dce8</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Reborn Core is a library used for many of the Tech Reborn team&apos;s mods, including Tech Reborn, Quantum Storage, Fluxed Redstone, Hardcore Map Reset, and many more.</description>
+				<version>3.15.5.467</version>
+				<url>https://github.com/TechReborn/RebornCore</url>
+				<authors>modmuss50, Gigabit101, Prospector</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/reborncore.cfg</URL>
+				<Path>config/reborncore.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>426655ba451029b74c0084d7870447b7</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/teamreborn/energy_priority.json</URL>
+				<Path>config/teamreborn/energy_priority.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3d6b01f6f9e9ea51f0f5fd5e8d376462</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/teamreborn/reborncore/client.cfg</URL>
+				<Path>config/teamreborn/reborncore/client.cfg</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>7fe77922661d35bf486323ff263078b1</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/teamreborn/reborncore/misc.cfg</URL>
+				<Path>config/teamreborn/reborncore/misc.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>12c7eb57ceb5d1ecf4cb2137081c9cea</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/teamreborn/reborncore/power.cfg</URL>
+				<Path>config/teamreborn/reborncore/power.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>9c19db3de57ff0688b81f87cdf7cb8b0</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/teamreborn/reborncore/upgrades.cfg</URL>
+				<Path>config/teamreborn/reborncore/upgrades.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>0518d34b7682a3338324f2e438e765ed</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="RebornStorage" id="rebornstorage" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/RebornStorage-1.12.2-3.3.4.85.jar</URL>
+			<Size>80180</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a2706611ee95fe9c88171d1ae4e77a4f</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>3.3.4.85</version>
+				<url></url>
+				<authors>Gigabit101</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/teamreborn/rebornstorage/config.cfg</URL>
+				<Path>config/teamreborn/rebornstorage/config.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>302b0eeb8f2eaffb9ec6192069ebe2b5</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Redstone Flux" id="redstoneflux" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/RedstoneFlux-1.12-2.1.0.6-universal.jar</URL>
+			<Size>36278</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f00530b437c41a189dbf8a85d0ac40b6</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>The Redstone Flux API - the cornerstone of Energy Transfer in modded Minecraft since 1.6.4.</description>
+				<version>2.1.0.6</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+		</Module>
+		<Module name="Refined Storage" id="refinedstorage" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/refinedstorage-1.6.15.jar</URL>
+			<Size>1911631</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>de8d2220d174b5bc2c90e41cc9086d50</MD5>
+			<Meta>
+				<credits></credits>
+				<description>An elegant solution to your hoarding problem</description>
+				<version>1.6.15</version>
+				<url>https://refinedstorage.raoulvdberge.com</url>
+				<authors>Refined Storage contributors</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/refinedstorage.cfg</URL>
+				<Path>config/refinedstorage.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>490fca283175ce746078b1ea7e554fd5</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Refined Storage Addons" id="refinedstorageaddons" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/refinedstorageaddons-0.4.4.jar</URL>
+			<Size>26716</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>02f8fd1407f45dea8bd58e7eefc56b1c</MD5>
+			<Meta>
+				<credits></credits>
+				<description>An addon mod for Refined Storage</description>
+				<version>0.4.4</version>
+				<url></url>
+				<authors>Refined Storage Addons contributors</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/refinedstorageaddons.cfg</URL>
+				<Path>config/refinedstorageaddons.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>486a40cb9be3f627c07e0dcc0c9366e6</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Resource Loader" id="resourceloader" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/ResourceLoader-MC1.12.1-1.5.3.jar</URL>
+			<Size>16612</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>51141e882f96ce756b9b3d25f2acdf57</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Allows mod pack creators / users to add their own custom textures to minecrafts resources without making a resource pack.</description>
+				<version>1.5.3</version>
+				<url></url>
+				<authors>lumien</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/LLOverlayReloaded.cfg</URL>
+				<Path>config/LLOverlayReloaded.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>dab10b769b43b86a99d1f1fb4c9be3f5</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="RFTools" id="rftools" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/rftools-1.12-7.72.jar</URL>
+			<Size>2895812</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>f05eea6ca1aea64e5742cb15d6dc79c1</MD5>
+			<Meta>
+				<credits>diesieben07, for being of constant assistance with my questions on modding and Forge in specific</credits>
+				<description>RedFlux tools</description>
+				<version>1.12-7.72</version>
+				<url></url>
+				<authors>McJty</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/rftools/rftools.cfg</URL>
+				<Path>config/rftools/rftools.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d4725acd5b1589ff844640ea5428c114</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/rftools/rftoolspower.cfg</URL>
+				<Path>config/rftools/rftoolspower.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>971d8fe7ceda3928768d624c375aacfa</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="rftoolspower-1.12-1.2.0" id="rftoolspower" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/rftoolspower-1.12-1.2.0.jar</URL>
+			<Size>148083</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>afd405e1ba3857a4bff72c394c3540af</MD5>
+		</Module>
+		<Module name="Shadowfacts&apos; Forgelin" id="forgelin" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/Forgelin-1.8.3.jar</URL>
+			<Size>5772310</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d729a4a101a5687329526f6cb7adc64d</MD5>
+			<Meta>
+				<credits>Emberwalker, for the original Forgelin</credits>
+				<description>Kotlin helper library for Forge.</description>
+				<version>1.8.3</version>
+				<url>https://github.com/shadowfacts/Forgelin</url>
+				<authors>shadowfacts</authors>
+			</Meta>
+		</Module>
+		<Module name="ShadowMC" id="shadowmc" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/ShadowMC-1.12-3.8.0.jar</URL>
+			<Size>464802</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>4649d8bc9cf94f032b4482692f4b4c2d</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A library mod required for all my other mods.</description>
+				<version>1.12-3.8.0</version>
+				<url>http://github.com/shadowfacts/ShadowMC</url>
+				<authors>Shadowfacts</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/shadowfacts/ShadowMC.cfg</URL>
+				<Path>config/shadowfacts/ShadowMC.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>bc89d6b282961cd0d5fb66445260238d</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Silent Lib" id="SilentLib" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/SilentLib-1.12.2-3.0.13+167.jar</URL>
+			<Size>588846</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>226e4977e83fec1fd88963ce7a98fb16</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Shared library for SilentChaos512&apos;s mods.</description>
+				<version>3.0.13</version>
+				<url>https://minecraft.curseforge.com/projects/silent-lib</url>
+				<authors>SilentChaos512</authors>
+			</Meta>
+		</Module>
+		<Module name="Silent&apos;s Gems" id="silentgems" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/SilentsGems-1.12.2-2.8.18+322.jar</URL>
+			<Size>3477458</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>5f1d3aae083dee33e2da562e40f35ad8</MD5>
+			<Meta>
+				<credits>
+Creator: SilentChaos512
+Fancy models: M4thG33k</credits>
+				<description>When diamonds won&apos;t cut it.</description>
+				<version>2.8.18</version>
+				<url>http://minecraft.curseforge.com/projects/silents-gems</url>
+				<authors>SilentChaos512</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/silentgems.cfg</URL>
+				<Path>config/silentgems.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>3965641d0a27541d9229e6694ee340a3</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Silent&apos;s Gems: Extra Parts" id="sgextraparts" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/SGExtraParts-1.12.2-1.4.6-49.jar</URL>
+			<Size>105448</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0b8448ca494dac0c5e88e16ecec79504</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Official tool part add-on pack for Silent&apos;s Gems</description>
+				<version>1.4.6</version>
+				<url></url>
+				<authors>SilentChaos512</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/sgextraparts.cfg</URL>
+				<Path>config/sgextraparts.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d6a909cf80f8856917f03bb756dd7602</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Soul Shards - The Old Ways" id="soulshardstow" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/SoulShards-TOW-1.12-2.7.6-56.jar</URL>
+			<Size>267559</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>791174e6131629f5d806db7d23495058</MD5>
+			<Meta>
+				<credits>ShadwDrgn, Moze_Intel, Nenivar, RetiredNavyVet, TeamWhammich, BBoldt</credits>
+				<description>Custom spawners for any mob!</description>
+				<version>1.12-2.7.6-56</version>
+				<url></url>
+				<authors>TehNut</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/sstow/SoulShards.cfg</URL>
+				<Path>config/sstow/SoulShards.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a71062e4ebe4d1b9eb6e54ba54f26cf3</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Storage Drawers" id="storagedrawers" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/StorageDrawers-1.12.2-5.3.8.jar</URL>
+			<Size>596220</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ab008fc9f41cd9e215b4c8d5d7e5be6e</MD5>
+			<Meta>
+				<credits>By jaquadro</credits>
+				<description>Multi-drawer storage blocks for quick storage and retrieval.</description>
+				<version>1.12.2-5.3.8</version>
+				<url>http://www.jaquadro.com/</url>
+				<authors>jaquadro</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/sstow/ShardTiers.json</URL>
+				<Path>config/sstow/ShardTiers.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>19b35704f2d04fc265812ad172ce6819</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/storagedrawers.cfg</URL>
+				<Path>config/storagedrawers.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>00fa36a20fbc30e9e1330fa98ae2d4a3</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="SwingThroughGrass" id="stg" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/stg-1.12.2-1.2.3.jar</URL>
+			<Size>24024</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b836648006f1451c65d33f7132eec770</MD5>
+			<Meta>
+				<credits>Direwolf20</credits>
+				<description>Don&apos;t let the grass be between you and your prey!</description>
+				<version>1.12.2-1.2.3</version>
+				<url></url>
+				<authors>Exidex</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/stg.cfg</URL>
+				<Path>config/stg.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b2ddc6d7b2259cd289885d8d3e3ddbb4</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Tech Reborn" id="techreborn" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/TechReborn-1.12.2-2.24.1.1017-universal.jar</URL>
+			<Size>2516791</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0eb4e8f0950a04835992cec61a30cce8</MD5>
+			<Meta>
+				<credits>Thanks to these contributors: TheMattaBase, Mj11jM, Mazdallier, tntrololol, joflashstudios, drcrazy, lclc98, Lordmau5, mezz, Thog, and Dimmerworld</credits>
+				<description>Tech Reborn is a completely standalone tech mod designed by the ideals of GregTech 2 and Industrial Craft 2 pre-experimental. The mod includes tools and machines to gather resources, process materials, and progression throughout the mod. http://www.techreborn.ovh/</description>
+				<version>2.24.1.1017</version>
+				<url>https://github.com/TechReborn/TechReborn</url>
+				<authors>modmuss50, Gigabit101, Prospector</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/teamreborn/techreborn/compat.cfg</URL>
+				<Path>config/teamreborn/techreborn/compat.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>f526159716cd119ee37756a9146c3adf</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/teamreborn/techreborn/generators.cfg</URL>
+				<Path>config/teamreborn/techreborn/generators.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>ee3bf9e74d144c8e32d3f7a911fb5fc9</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/teamreborn/techreborn/items.cfg</URL>
+				<Path>config/teamreborn/techreborn/items.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6822c25724c8e08a5b69b9f309a49b74</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/teamreborn/techreborn/machines.cfg</URL>
+				<Path>config/teamreborn/techreborn/machines.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2cb6fbb5488e0cf8162f496019d1e2ef</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/teamreborn/techreborn/misc.cfg</URL>
+				<Path>config/teamreborn/techreborn/misc.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>cab1b13206b51459188c949f1d89db62</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/teamreborn/techreborn/ores.json</URL>
+				<Path>config/teamreborn/techreborn/ores.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>39fa992475872d986cfde83742dfd187</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/teamreborn/techreborn/recipes.cfg</URL>
+				<Path>config/teamreborn/techreborn/recipes.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1a1e9c8138d6460921d31eac52e89797</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/teamreborn/techreborn/world.cfg</URL>
+				<Path>config/teamreborn/techreborn/world.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>18d2ac618fac53fa908443802f9b4b78</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Tesla Core Lib" id="teslacorelib" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/tesla-core-lib-1.12.2-1.0.15.jar</URL>
+			<Size>1140374</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>b0214b0a90243374c6bd89a023f2b26e</MD5>
+			<Meta>
+				<credits>The Forge, FML guys and my wife.</credits>
+				<description>Just the most awesome lib mod out there!</description>
+				<version>1.12.2-1.0.15</version>
+				<url></url>
+				<authors>Face_of_Cat</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/teslacorelib.cfg</URL>
+				<Path>config/teslacorelib.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>986054a6a52377f3229a57f1621c075a</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="TestCommit" id="testcommit" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/TestCommit.txt</URL>
+			<Size>0</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>d41d8cd98f00b204e9800998ecf8427e</MD5>
+		</Module>
+		<Module name="Thaumcraft" id="thaumcraft" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/Thaumcraft-1.12.2-6.1.BETA26.jar</URL>
+			<Size>11360786</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3b13783ccaafb5d5b9ce8cb85e87fff6</MD5>
+			<Meta>
+				<credits>Special thanks to CovertJaguar, Dan Scott, Lorc, bonemouse, Scott Killen, Rorax and chicken_bones</credits>
+				<description>Adding a touch of magic to Minecraft</description>
+				<version>1.12.2-6.1.BETA26</version>
+				<url>http://www.minecraftforum.net/topic/2011841-thaumcraft</url>
+				<authors>Azanor</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/thaumcraft_graphics.cfg</URL>
+				<Path>config/thaumcraft_graphics.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>cf26412eb3d3353ce6b922290dc5c83c</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/thaumcraft_misc.cfg</URL>
+				<Path>config/thaumcraft_misc.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>b2b86c71f1042569fe8268f4444b4fd6</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/thaumcraft_world.cfg</URL>
+				<Path>config/thaumcraft_world.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>35d37b041ca66e3a67d79eebc564b1be</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="ThaumicJEI" id="thaumicjei" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/ThaumicJEI-1.12.2-1.6.0-27.jar</URL>
+			<Size>59213</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>ac9c39b39b4ea8dc40fe7b8a55d773d1</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A Simple JEI addon for Thaumcraft</description>
+				<version>1.12.2-1.6.0-27</version>
+				<url></url>
+				<authors>Buuz135</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/thaumicjei.cfg</URL>
+				<Path>config/thaumicjei.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>21192b33add859f6e6bbd8c8fbfbe39d</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="The One Probe" id="theoneprobe" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/theoneprobe-1.12-1.4.28.jar</URL>
+			<Size>301893</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>63849a13a822b3b56308245eb8074a7e</MD5>
+			<Meta>
+				<credits></credits>
+				<description>A Probe to rule them all!</description>
+				<version>1.12-1.4.28</version>
+				<url></url>
+				<authors>McJty</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/theoneprobe.cfg</URL>
+				<Path>config/theoneprobe.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6df9c741f647d7b80b8ed4392a09dc9c</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Thermal Cultivation" id="thermalcultivation" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/ThermalCultivation-1.12.2-0.3.3.12-universal.jar</URL>
+			<Size>106843</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a6993f3947a833582909c7e31325987c</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Thermal gets Agrarian - provides options for farming and related activities!</description>
+				<version>0.3.3.12</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/cofh/thermalcultivation/client.cfg</URL>
+				<Path>config/cofh/thermalcultivation/client.cfg</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>49601cf3ca337a88c065f9e7da685c41</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/cofh/thermalcultivation/common.cfg</URL>
+				<Path>config/cofh/thermalcultivation/common.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>aa44f9adb80d2ab4f3495bcab29f5534</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/cofh/thermalinnovation/client.cfg</URL>
+				<Path>config/cofh/thermalinnovation/client.cfg</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>b597cdc48ee43c66337c76ca80eac5ca</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/cofh/thermalinnovation/common.cfg</URL>
+				<Path>config/cofh/thermalinnovation/common.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>7a25c524934acb8e84728a4c1bc3f299</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Thermal Dynamics" id="thermaldynamics" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/ThermalDynamics-1.12.2-2.5.5.21-universal.jar</URL>
+			<Size>762980</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3317c6f327d7ebe0ee3bd6206ececb02</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Thermal gets Dynamic! Adds ducts - blocks for transporting Items, Fluids, Redstone Flux, and even Players!</description>
+				<version>2.5.5.21</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/cofh/thermaldynamics/client.cfg</URL>
+				<Path>config/cofh/thermaldynamics/client.cfg</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>c72f9fe6453d1c7f6b25e01eeba040c1</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/cofh/thermaldynamics/common.cfg</URL>
+				<Path>config/cofh/thermaldynamics/common.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>46b10637d63c13ee2834b30afe9940c8</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Thermal Expansion" id="thermalexpansion" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/ThermalExpansion-1.12.2-5.5.4.43-universal.jar</URL>
+			<Size>2426151</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>53144cfec12795862d20aa07750c9a59</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>Expanding Minecraft Thermally - provides new options for automation and processing!</description>
+				<version>5.5.4.43</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/cofh/thermalexpansion/client.cfg</URL>
+				<Path>config/cofh/thermalexpansion/client.cfg</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>2962e75155a3615407d4d315d0f1d3cc</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/cofh/thermalexpansion/common.cfg</URL>
+				<Path>config/cofh/thermalexpansion/common.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>66ad0b8e8bfa61377cabafe6bf560df4</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/cofh/thermalexpansion/florbs.cfg</URL>
+				<Path>config/cofh/thermalexpansion/florbs.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1e27e32ea282ad109bcbf4634c590927</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/cofh/thermalexpansion/morbs.cfg</URL>
+				<Path>config/cofh/thermalexpansion/morbs.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>849c6c339460c905a51e8b50750da30c</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Thermal Foundation" id="thermalfoundation" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/ThermalFoundation-1.12.2-2.6.3.27-universal.jar</URL>
+			<Size>2312713</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>0f61017dc9412ba4aad8a64f7bca16bb</MD5>
+			<Meta>
+				<credits>Team CoFH</credits>
+				<description>The Foundation of a Thermally enhanced world!</description>
+				<version>2.6.3.27</version>
+				<url>http://www.teamcofh.com</url>
+				<authors>Team CoFH</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/cofh/thermalfoundation/client.cfg</URL>
+				<Path>config/cofh/thermalfoundation/client.cfg</Path>
+				<NoOverwrite>true</NoOverwrite>
+				<MD5>73afbe57120c81caa3bc9507c238dd66</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/cofh/thermalfoundation/common.cfg</URL>
+				<Path>config/cofh/thermalfoundation/common.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a487b7bb4e6f300de5275b37fed0505c</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/cofh/thermalfoundation/lexicon-whitelist.cfg</URL>
+				<Path>config/cofh/thermalfoundation/lexicon-whitelist.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>1829f26cbb1916a47a7eab95ecf3e516</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/cofh/world/01_thermalfoundation_ores.json</URL>
+				<Path>config/cofh/world/01_thermalfoundation_ores.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>34fb3dba52a36a91ce02a54433411dd7</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/cofh/world/02_thermalfoundation_oil.json</URL>
+				<Path>config/cofh/world/02_thermalfoundation_oil.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8c9684c4b227520357d7bba1c780a3b0</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/cofh/world/03_thermalfoundation_clathrates.json</URL>
+				<Path>config/cofh/world/03_thermalfoundation_clathrates.json</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>22cdd2571e49a9dfd9fe7ede7e457e84</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Tinkers&apos; Addons" id="TinkersAddons" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/Tinkers&apos;%20Addons-1.12.1-1.0.7.jar</URL>
+			<Size>44044</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>798f4dd5eea7b7f62250c7b3e9ce2713</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Adding back old modifiers to Tinkers&apos; Construct 2.0</description>
+				<version>1.0.7</version>
+				<url></url>
+				<authors>oitsjustjose</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/TinkerModules.cfg</URL>
+				<Path>config/TinkerModules.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d0f79d1bbe0ea97400db4af8729274ce</MD5>
+			</ConfigFile>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/tinkersaddons.cfg</URL>
+				<Path>config/tinkersaddons.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>8ed334e2410d948dd9935b3592e4fa3d</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Tinkers&apos; Construct" id="tconstruct" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/TConstruct-1.12.2-2.12.0.157.jar</URL>
+			<Size>4004838</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9c8942eff75c9f2b4a13ec085c118b56</MD5>
+			<Meta>
+				<credits>Slime Knights, mDiyo, fuj1n, ProgWML6, Sunstrike, Pillbox</credits>
+				<description>A little of this, a little of that, a lot of tinkering, and a lot of tools</description>
+				<version>1.12.2-2.12.0.157</version>
+				<url>https://github.com/SlimeKnights/TinkersConstruct</url>
+				<authors>boni, KnightMiner</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/tconstruct.cfg</URL>
+				<Path>config/tconstruct.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>d19d56e71f51e70aa69469ce25313d3e</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Toast Control" id="toastcontrol" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/Toast%20Control-1.12.2-1.8.1.jar</URL>
+			<Size>21668</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e431fec0248132e5c4d03ad70bd4dc6b</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Control what toasts are enabled, because some of them are useless.</description>
+				<version>1.12.2-1.8.1</version>
+				<url></url>
+				<authors>Shadows_of_Fire</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/toastcontrol.cfg</URL>
+				<Path>config/toastcontrol.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>81c36d6f52a9daa07012feee47c2ab72</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Tomb Many Graves" id="tombmanygraves" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/TombManyGraves-1.12-4.2.0.jar</URL>
+			<Size>150657</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a8cb01e6ff16b4375c9b73c0fcc1c0c2</MD5>
+			<Meta>
+				<credits>Thanks to any and all who have let me look at/utilize their code to better understand the inner working of MC!</credits>
+				<description>A grave mod for the adventurer on the go!</description>
+				<version>1.12-4.2.0</version>
+				<url></url>
+				<authors>M4thG33k, Tiffit</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/tombmanygraves.cfg</URL>
+				<Path>config/tombmanygraves.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>2839db4bdf5ab22b59cdece8757662d1</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="TombManyGraves2 API" id="tombmanygraves2api" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/tombmanygraves2api-1.12.2-1.0.0.jar</URL>
+			<Size>10891</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>9e6790d8ddc4617629ddf0ab08b318eb</MD5>
+			<Meta>
+				<credits></credits>
+				<description>The API used by Tomb Many Graves 2 for gathering/restoring inventories to their original slots</description>
+				<version>1.12.2-1.0.0</version>
+				<url></url>
+				<authors>M4thG33k</authors>
+			</Meta>
+		</Module>
+		<Module name="Traverse" id="traverse" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/Traverse-1.12.2-1.6.0-69.jar</URL>
+			<Size>270133</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>3cc748cd333cab2e5f8132a89cd40b48</MD5>
+			<Meta>
+				<credits>TheCodedOne for maintaining the mod for a bit, and InsomniaKitten for some assets</credits>
+				<description>Improving the world with fancy new biomes since 2017.</description>
+				<version>1.12.2-1.6.0-69</version>
+				<url>https://github.com/TraverseTeam/Traverse</url>
+				<authors>Prospector</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/traverse/traverse.cfg</URL>
+				<Path>config/traverse/traverse.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>a2334c00310f7fc904e56f9125af7cc8</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Valkyrie Lib" id="valkyrielib" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/valkyrielib-1.12.2-2.0.20.1.jar</URL>
+			<Size>733580</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>e9bfd5d4274395d87c0bea745a37223a</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>1.12.2-2.0.20.1</version>
+				<url>http://minecraft.curseforge.com/projects/valkyrielib</url>
+				<authors>ValkyrieofNight</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/valkyrielib/main.cfg</URL>
+				<Path>config/valkyrielib/main.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>98a459e058f608aa8db99cdc258fb6f2</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="VanillaFix" id="vanillafix" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/VanillaFix-1.0.10-150.jar</URL>
+			<Size>1025896</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>a74aaab68100e03f54e35d1007d50169</MD5>
+			<Meta>
+				<credits></credits>
+				<description>Bug fixes, optimizations, no more crashes, and better crash reports for Minecraft</description>
+				<version>1.0.10-150</version>
+				<url>https://minecraft.curseforge.com/projects/vanillafix</url>
+				<authors>Runemoro, ZombieHDGaming</authors>
+			</Meta>
+		</Module>
+		<Module name="WAIM-1.0.0" id="waim" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/WAIM-1.0.0.jar</URL>
+			<Size>10081</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>654f5bfc1322c22522532e12fc88c039</MD5>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/waila/waila.cfg</URL>
+				<Path>config/waila/waila.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>6de1b4099e7dc576f847f06845e648b5</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="XNet" id="xnet" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/xnet-1.12-1.8.2.jar</URL>
+			<Size>496307</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>13935bce3f6b827aa19567a81e5be38f</MD5>
+			<Meta>
+				<credits>McJty</credits>
+				<description>Advanced Networking</description>
+				<version>1.12-1.8.2</version>
+				<url></url>
+				<authors>McJty</authors>
+			</Meta>
+			<ConfigFile>
+				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/xnet/xnet.cfg</URL>
+				<Path>config/xnet/xnet.cfg</Path>
+				<NoOverwrite>false</NoOverwrite>
+				<MD5>bb52185b9f2f3fd1082a0f214732b41a</MD5>
+			</ConfigFile>
+		</Module>
+		<Module name="Zero CORE" id="zerocore" depends="" side="BOTH">
+			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/zerocore-1.12.2-0.1.2.8.jar</URL>
+			<Size>228623</Size>
+			<Required>true</Required>
+			<ModType>Regular</ModType>
+			<MD5>cc782f73e62792dcdb108449baec110f</MD5>
+			<Meta>
+				<credits></credits>
+				<description></description>
+				<version>1.12.2-0.1.2.8</version>
+				<url>http://zerono.it/</url>
+				<authors>ZeroNoRyouki</authors>
+			</Meta>
+		</Module>
+	</Server>
+</ServerPack>

@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Mon Jun 08 14:24:22 EDT 2020:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.1.0 - (1808820): instance a816c00e-0172-952d-2143-000000870108 
+on database directory C:\Users\bhuds\AppData\Roaming\.MCUpdater\database with class loader sun.misc.Launcher$AppClassLoader@647e05 
+Loaded from file:/C:/gittest/modpack-files/MCU-FastPack-latest%20(1).jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_251-b08
+user.dir=C:\gittest\modpack-files
+os.name=Windows 10
+os.arch=x86
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''
