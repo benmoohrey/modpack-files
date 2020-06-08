@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ServerPack version="3.4" xmlns="http://www.mcupdater.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mcupdater.com http://files.mcupdater.com/ServerPackv2.xsd">
 	<Server id="LBOE" abstract="false" name="Little Bit of Everything" newsUrl="about:blank" version="1.12.2" generateList="true" autoConnect="false" revision="1" mainClass="net.minecraft.launchwrapper.Launch" launcherType="Vanilla">
-		<Loader type="Forge" version="1.12.2-14.23.5.2854" loadOrder="0"/>
+		<Loader type="Forge" version="1.12.2-14.23.5.2844" loadOrder="0"/>
 		<Module name="/dank/null" id="danknull" depends="" side="BOTH">
 			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/DankNull-1.12.2-1.5.71.jar</URL>
 			<Size>353517</Size>
