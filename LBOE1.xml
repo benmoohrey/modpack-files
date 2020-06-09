@@ -1791,29 +1791,6 @@ The feature chest is the crystal chest, which is transparent - some inventory co
 				<authors>aidancbrady, thommy101, thiakil, pupnewfster, dizzyd</authors>
 			</Meta>
 		</Module>
-		<Module name="Minecraft Forge" id="forge-14.23.5.2854" depends="" side="BOTH">
-			<Size>100000</Size>
-			<Required>true</Required>
-			<ModType>Regular</ModType>
-			<ConfigFile>
-				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/forge.cfg</URL>
-				<Path>config/forge.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>f2ad8aa8e1d642921e4ddbeb5903b8eb</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/forgeChunkLoading.cfg</URL>
-				<Path>config/forgeChunkLoading.cfg</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>6df43036b4cc4d47d6ca9f23c2be31f1</MD5>
-			</ConfigFile>
-			<ConfigFile>
-				<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/config/splash.properties</URL>
-				<Path>config/splash.properties</Path>
-				<NoOverwrite>false</NoOverwrite>
-				<MD5>84f5e50bf3a1771d84ec8fee6170efa8</MD5>
-			</ConfigFile>
-		</Module>
 		<Module name="Mod Name Tooltip" id="modnametooltip" depends="" side="BOTH">
 			<URL priority="0">https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client/mods/modnametooltip_1.12.2-1.10.1.jar</URL>
 			<Size>12732</Size>
