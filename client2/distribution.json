@@ -1,7 +1,11 @@
 {
   "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
-  
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
   "servers": [
     {
       "id": "LBOE-1.12.2",
@@ -9,10 +13,14 @@
       "description": "LBOE Running Minecraft 1.12.2 (Forge v14.23.5.2854)",
       "icon": null,
       "version": "1.0.0",
-      "address": "192.95.36.158:25592",
+      "address": "localhost:25565",
       "minecraftVersion": "1.12.2",
-	  
-      "mainServer": true,
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
       "autoconnect": false,
       "modules": [
         {
@@ -2101,6 +2109,2871 @@
             "size": 228623,
             "MD5": "cc782f73e62792dcdb108449baec110f",
             "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/forgemods/zerocore-1.12.2-0.1.2.8.jar"
+          }
+        },
+        {
+          "id": "ConfigPush.txt",
+          "name": "ConfigPush.txt",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 0,
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/ConfigPush.txt",
+            "path": "config/ConfigPush.txt"
+          }
+        },
+        {
+          "id": "mainmenu.json",
+          "name": "mainmenu.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 4251,
+            "MD5": "9b550645d792fc1636b339802cdb5a6f",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/CustomMainMenu/mainmenu.json",
+            "path": "config/CustomMainMenu/mainmenu.json"
+          }
+        },
+        {
+          "id": "DankNull.cfg",
+          "name": "DankNull.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1756,
+            "MD5": "de7660e8077550f85122288c16c7f31b",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/DankNull.cfg",
+            "path": "config/DankNull.cfg"
+          }
+        },
+        {
+          "id": "DiscordSuite.cfg",
+          "name": "DiscordSuite.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 63,
+            "MD5": "6a5ea34c6afd938672bf997f527a56bf",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/DiscordSuite.cfg",
+            "path": "config/DiscordSuite.cfg"
+          }
+        },
+        {
+          "id": "ElevatorMod.cfg",
+          "name": "ElevatorMod.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 329,
+            "MD5": "89109ee981c9135f7f0d0caa4115694f",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/ElevatorMod/ElevatorMod.cfg",
+            "path": "config/ElevatorMod/ElevatorMod.cfg"
+          }
+        },
+        {
+          "id": "Guide-API.cfg",
+          "name": "Guide-API.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1554,
+            "MD5": "98d335534c1032db4a6a008cd67565ec",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/Guide-API/Guide-API.cfg",
+            "path": "config/Guide-API/Guide-API.cfg"
+          }
+        },
+        {
+          "id": "IntegrationForegoing.cfg",
+          "name": "IntegrationForegoing.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 2252,
+            "MD5": "88bfbb6e011a2d2ed251752de94f98c6",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/IntegrationForegoing.cfg",
+            "path": "config/IntegrationForegoing.cfg"
+          }
+        },
+        {
+          "id": "InvTweaks.cfg",
+          "name": "InvTweaks.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 771,
+            "MD5": "245435cd786fc464024200cae5eb5b8f",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/InvTweaks/InvTweaks.cfg",
+            "path": "config/InvTweaks/InvTweaks.cfg"
+          }
+        },
+        {
+          "id": "InvTweaks.cfg",
+          "name": "InvTweaks.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 742,
+            "MD5": "0a6637130d97f81784efaf853082f914",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/InvTweaks.cfg",
+            "path": "config/InvTweaks.cfg"
+          }
+        },
+        {
+          "id": "InvTweaksRules.txt",
+          "name": "InvTweaksRules.txt",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1267,
+            "MD5": "9ffe290374808feabfaa72674b68abf9",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/InvTweaksRules.txt",
+            "path": "config/InvTweaksRules.txt"
+          }
+        },
+        {
+          "id": "InvTweaksTree.txt",
+          "name": "InvTweaksTree.txt",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 64164,
+            "MD5": "faaba88b878a58f92185f79f058ca158",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/InvTweaksTree.txt",
+            "path": "config/InvTweaksTree.txt"
+          }
+        },
+        {
+          "id": "LLOverlayReloaded.cfg",
+          "name": "LLOverlayReloaded.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 794,
+            "MD5": "dab10b769b43b86a99d1f1fb4c9be3f5",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/LLOverlayReloaded.cfg",
+            "path": "config/LLOverlayReloaded.cfg"
+          }
+        },
+        {
+          "id": "NaturaModules.cfg",
+          "name": "NaturaModules.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 608,
+            "MD5": "09b902b65e6e3b295866ec8b398db533",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/NaturaModules.cfg",
+            "path": "config/NaturaModules.cfg"
+          }
+        },
+        {
+          "id": "TinkerModules.cfg",
+          "name": "TinkerModules.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 567,
+            "MD5": "d0f79d1bbe0ea97400db4af8729274ce",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/TinkerModules.cfg",
+            "path": "config/TinkerModules.cfg"
+          }
+        },
+        {
+          "id": "General.cfg",
+          "name": "General.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 923,
+            "MD5": "80bbacdfbdd6b78ee9afc1cfee083ab0",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/acronym/base/General.cfg",
+            "path": "config/acronym/base/General.cfg"
+          }
+        },
+        {
+          "id": "actuallyadditions.cfg",
+          "name": "actuallyadditions.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 24504,
+            "MD5": "85bb838ad7c0c83f40578533121142a3",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/actuallyadditions.cfg",
+            "path": "config/actuallyadditions.cfg"
+          }
+        },
+        {
+          "id": "adventurepack.cfg",
+          "name": "adventurepack.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 924,
+            "MD5": "eee6957b6089d1804d8d2797a701c751",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/adventurepack.cfg",
+            "path": "config/adventurepack.cfg"
+          }
+        },
+        {
+          "id": "akashictome.cfg",
+          "name": "akashictome.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1135,
+            "MD5": "8f94beb5a5d823f4a2b85a794be25ac6",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/akashictome.cfg",
+            "path": "config/akashictome.cfg"
+          }
+        },
+        {
+          "id": "appleskin.cfg",
+          "name": "appleskin.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1333,
+            "MD5": "5985c69d22b2f08443f7179dcd227f68",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/appleskin.cfg",
+            "path": "config/appleskin.cfg"
+          }
+        },
+        {
+          "id": "aroma1997core.cfg",
+          "name": "aroma1997core.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 0,
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/aroma1997/aroma1997core.cfg",
+            "path": "config/aroma1997/aroma1997core.cfg"
+          }
+        },
+        {
+          "id": "aroma1997sdimension.cfg",
+          "name": "aroma1997sdimension.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 2430,
+            "MD5": "f456d3b259aab1996deb1dcde56c4e27",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/aroma1997/aroma1997sdimension.cfg",
+            "path": "config/aroma1997/aroma1997sdimension.cfg"
+          }
+        },
+        {
+          "id": "aroma1997sdimension_gen.json",
+          "name": "aroma1997sdimension_gen.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 2369,
+            "MD5": "89eaf0bfbed28ac615b90c3d42e4f20a",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/aroma1997/aroma1997sdimension_gen.json",
+            "path": "config/aroma1997/aroma1997sdimension_gen.json"
+          }
+        },
+        {
+          "id": "aevitas_ore_perk.cfg",
+          "name": "aevitas_ore_perk.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1494,
+            "MD5": "3cdbca288a189e55ba07dccea735812a",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/astralsorcery/aevitas_ore_perk.cfg",
+            "path": "config/astralsorcery/aevitas_ore_perk.cfg"
+          }
+        },
+        {
+          "id": "amulet_enchantments.cfg",
+          "name": "amulet_enchantments.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 4090,
+            "MD5": "ecb3774d0914d15c27e61d9ef7299fe7",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/astralsorcery/amulet_enchantments.cfg",
+            "path": "config/astralsorcery/amulet_enchantments.cfg"
+          }
+        },
+        {
+          "id": "fluid_rarities.cfg",
+          "name": "fluid_rarities.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 2150,
+            "MD5": "d4aefc0ce67212fe9aac28afaf19f550",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/astralsorcery/fluid_rarities.cfg",
+            "path": "config/astralsorcery/fluid_rarities.cfg"
+          }
+        },
+        {
+          "id": "herdable_animals_blacklist.cfg",
+          "name": "herdable_animals_blacklist.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 586,
+            "MD5": "594ea71c85819a79330083be2c266672",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/astralsorcery/herdable_animals_blacklist.cfg",
+            "path": "config/astralsorcery/herdable_animals_blacklist.cfg"
+          }
+        },
+        {
+          "id": "mineralis_ritual.cfg",
+          "name": "mineralis_ritual.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1494,
+            "MD5": "3cdbca288a189e55ba07dccea735812a",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/astralsorcery/mineralis_ritual.cfg",
+            "path": "config/astralsorcery/mineralis_ritual.cfg"
+          }
+        },
+        {
+          "id": "perk_void_trash_replacement.cfg",
+          "name": "perk_void_trash_replacement.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1494,
+            "MD5": "3cdbca288a189e55ba07dccea735812a",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/astralsorcery/perk_void_trash_replacement.cfg",
+            "path": "config/astralsorcery/perk_void_trash_replacement.cfg"
+          }
+        },
+        {
+          "id": "treasure_shrine.cfg",
+          "name": "treasure_shrine.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1494,
+            "MD5": "3cdbca288a189e55ba07dccea735812a",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/astralsorcery/treasure_shrine.cfg",
+            "path": "config/astralsorcery/treasure_shrine.cfg"
+          }
+        },
+        {
+          "id": "astralsorcery.cfg",
+          "name": "astralsorcery.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 51356,
+            "MD5": "4b786848015e664ee4cf7ff9100af44a",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/astralsorcery.cfg",
+            "path": "config/astralsorcery.cfg"
+          }
+        },
+        {
+          "id": "badwithernocookiereloaded.cfg",
+          "name": "badwithernocookiereloaded.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1487,
+            "MD5": "2b0e7b8b4ba7117d54bd294662141fc4",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/badwithernocookiereloaded.cfg",
+            "path": "config/badwithernocookiereloaded.cfg"
+          }
+        },
+        {
+          "id": "baubles.cfg",
+          "name": "baubles.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 162,
+            "MD5": "2686fb61e4e9948ba0ed545122c01b43",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/baubles.cfg",
+            "path": "config/baubles.cfg"
+          }
+        },
+        {
+          "id": "betterbuilderswands.cfg",
+          "name": "betterbuilderswands.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 2105,
+            "MD5": "f0e70f1c2ccb0864d2eb4d38debc713a",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/betterbuilderswands.cfg",
+            "path": "config/betterbuilderswands.cfg"
+          }
+        },
+        {
+          "id": "betterfps.json",
+          "name": "betterfps.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 176,
+            "MD5": "9fafc11a63bc72f6d2cfa5a3e3ebd02b",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/betterfps.json",
+            "path": "config/betterfps.json"
+          }
+        },
+        {
+          "id": "bookshelf.cfg",
+          "name": "bookshelf.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1590,
+            "MD5": "adcac70c466552a5e87456726483da0c",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/bookshelf.cfg",
+            "path": "config/bookshelf.cfg"
+          }
+        },
+        {
+          "id": "botania.cfg",
+          "name": "botania.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 8769,
+            "MD5": "4ab6f79026e63c45b20dcb092f369396",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/botania.cfg",
+            "path": "config/botania.cfg"
+          }
+        },
+        {
+          "id": "ceramics.cfg",
+          "name": "ceramics.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 2541,
+            "MD5": "1454b5a00ceea11ee368faac10cdbf62",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/ceramics.cfg",
+            "path": "config/ceramics.cfg"
+          }
+        },
+        {
+          "id": "chisel.cfg",
+          "name": "chisel.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 4758,
+            "MD5": "d65738f101457d5ff8530ba30d404da1",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/chisel.cfg",
+            "path": "config/chisel.cfg"
+          }
+        },
+        {
+          "id": "supporters.json",
+          "name": "supporters.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 601,
+            "MD5": "e3afca7cad44dfe35ccf489d71ec7ad1",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/codechicken/supporters.json",
+            "path": "config/codechicken/supporters.json"
+          }
+        },
+        {
+          "id": "supporters.marker",
+          "name": "supporters.marker",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 13,
+            "MD5": "bd7293c755148c5e52e8e3b6a9a935f5",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/codechicken/supporters.marker",
+            "path": "config/codechicken/supporters.marker"
+          }
+        },
+        {
+          "id": "codechickenlib.cfg",
+          "name": "codechickenlib.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1495,
+            "MD5": "c69eb2586d08040c2d9c1ece8cb61f99",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/codechickenlib.cfg",
+            "path": "config/codechickenlib.cfg"
+          }
+        },
+        {
+          "id": "client.cfg",
+          "name": "client.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1709,
+            "MD5": "03aed73b331b18ae2f6e10f2ffcf418a",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/cofh/core/client.cfg",
+            "path": "config/cofh/core/client.cfg"
+          }
+        },
+        {
+          "id": "common.cfg",
+          "name": "common.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 4122,
+            "MD5": "90d0fe04c3c484c15b7d3298ec55aa50",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/cofh/core/common.cfg",
+            "path": "config/cofh/core/common.cfg"
+          }
+        },
+        {
+          "id": "friends.cfg",
+          "name": "friends.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 0,
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/cofh/core/friends.cfg",
+            "path": "config/cofh/core/friends.cfg"
+          }
+        },
+        {
+          "id": "client.cfg",
+          "name": "client.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 66,
+            "MD5": "49601cf3ca337a88c065f9e7da685c41",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/cofh/thermalcultivation/client.cfg",
+            "path": "config/cofh/thermalcultivation/client.cfg"
+          }
+        },
+        {
+          "id": "common.cfg",
+          "name": "common.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 644,
+            "MD5": "aa44f9adb80d2ab4f3495bcab29f5534",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/cofh/thermalcultivation/common.cfg",
+            "path": "config/cofh/thermalcultivation/common.cfg"
+          }
+        },
+        {
+          "id": "client.cfg",
+          "name": "client.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 725,
+            "MD5": "c72f9fe6453d1c7f6b25e01eeba040c1",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/cofh/thermaldynamics/client.cfg",
+            "path": "config/cofh/thermaldynamics/client.cfg"
+          }
+        },
+        {
+          "id": "common.cfg",
+          "name": "common.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 959,
+            "MD5": "46b10637d63c13ee2834b30afe9940c8",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/cofh/thermaldynamics/common.cfg",
+            "path": "config/cofh/thermaldynamics/common.cfg"
+          }
+        },
+        {
+          "id": "client.cfg",
+          "name": "client.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 3389,
+            "MD5": "2962e75155a3615407d4d315d0f1d3cc",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/cofh/thermalexpansion/client.cfg",
+            "path": "config/cofh/thermalexpansion/client.cfg"
+          }
+        },
+        {
+          "id": "common.cfg",
+          "name": "common.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 28147,
+            "MD5": "66ad0b8e8bfa61377cabafe6bf560df4",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/cofh/thermalexpansion/common.cfg",
+            "path": "config/cofh/thermalexpansion/common.cfg"
+          }
+        },
+        {
+          "id": "florbs.cfg",
+          "name": "florbs.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 369,
+            "MD5": "1e27e32ea282ad109bcbf4634c590927",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/cofh/thermalexpansion/florbs.cfg",
+            "path": "config/cofh/thermalexpansion/florbs.cfg"
+          }
+        },
+        {
+          "id": "morbs.cfg",
+          "name": "morbs.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 447,
+            "MD5": "849c6c339460c905a51e8b50750da30c",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/cofh/thermalexpansion/morbs.cfg",
+            "path": "config/cofh/thermalexpansion/morbs.cfg"
+          }
+        },
+        {
+          "id": "client.cfg",
+          "name": "client.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1566,
+            "MD5": "73afbe57120c81caa3bc9507c238dd66",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/cofh/thermalfoundation/client.cfg",
+            "path": "config/cofh/thermalfoundation/client.cfg"
+          }
+        },
+        {
+          "id": "common.cfg",
+          "name": "common.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 16983,
+            "MD5": "a487b7bb4e6f300de5275b37fed0505c",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/cofh/thermalfoundation/common.cfg",
+            "path": "config/cofh/thermalfoundation/common.cfg"
+          }
+        },
+        {
+          "id": "lexicon-whitelist.cfg",
+          "name": "lexicon-whitelist.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 22309,
+            "MD5": "1829f26cbb1916a47a7eab95ecf3e516",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/cofh/thermalfoundation/lexicon-whitelist.cfg",
+            "path": "config/cofh/thermalfoundation/lexicon-whitelist.cfg"
+          }
+        },
+        {
+          "id": "client.cfg",
+          "name": "client.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 66,
+            "MD5": "b597cdc48ee43c66337c76ca80eac5ca",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/cofh/thermalinnovation/client.cfg",
+            "path": "config/cofh/thermalinnovation/client.cfg"
+          }
+        },
+        {
+          "id": "common.cfg",
+          "name": "common.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 2255,
+            "MD5": "7a25c524934acb8e84728a4c1bc3f299",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/cofh/thermalinnovation/common.cfg",
+            "path": "config/cofh/thermalinnovation/common.cfg"
+          }
+        },
+        {
+          "id": "00_minecraft.json",
+          "name": "00_minecraft.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 7036,
+            "MD5": "3b8a7a5c4d6264c9d7c73fdd2f97a493",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/cofh/world/00_minecraft.json",
+            "path": "config/cofh/world/00_minecraft.json"
+          }
+        },
+        {
+          "id": "01_thermalfoundation_ores.json",
+          "name": "01_thermalfoundation_ores.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 4263,
+            "MD5": "34fb3dba52a36a91ce02a54433411dd7",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/cofh/world/01_thermalfoundation_ores.json",
+            "path": "config/cofh/world/01_thermalfoundation_ores.json"
+          }
+        },
+        {
+          "id": "02_thermalfoundation_oil.json",
+          "name": "02_thermalfoundation_oil.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 3479,
+            "MD5": "8c9684c4b227520357d7bba1c780a3b0",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/cofh/world/02_thermalfoundation_oil.json",
+            "path": "config/cofh/world/02_thermalfoundation_oil.json"
+          }
+        },
+        {
+          "id": "03_thermalfoundation_clathrates.json",
+          "name": "03_thermalfoundation_clathrates.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1958,
+            "MD5": "22cdd2571e49a9dfd9fe7ede7e457e84",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/cofh/world/03_thermalfoundation_clathrates.json",
+            "path": "config/cofh/world/03_thermalfoundation_clathrates.json"
+          }
+        },
+        {
+          "id": "config.cfg",
+          "name": "config.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1475,
+            "MD5": "10d2344582b31e1420d184003b009fbb",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/cofh/world/config.cfg",
+            "path": "config/cofh/world/config.cfg"
+          }
+        },
+        {
+          "id": "comforts.cfg",
+          "name": "comforts.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1115,
+            "MD5": "0c71ddf693b9c891357551110e19524c",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/comforts.cfg",
+            "path": "config/comforts.cfg"
+          }
+        },
+        {
+          "id": "commoncapabilities.cfg",
+          "name": "commoncapabilities.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1634,
+            "MD5": "fe7b90e2a19d365d57791bb8909423ca",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/commoncapabilities.cfg",
+            "path": "config/commoncapabilities.cfg"
+          }
+        },
+        {
+          "id": "conarm.cfg",
+          "name": "conarm.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 913,
+            "MD5": "87192eccc57df405a8e2cb4d0e5f8ebc",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/conarm.cfg",
+            "path": "config/conarm.cfg"
+          }
+        },
+        {
+          "id": "craftingtweaks.cfg",
+          "name": "craftingtweaks.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 2299,
+            "MD5": "1e3a51441c71ae714069a2fc69ef77b3",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/craftingtweaks.cfg",
+            "path": "config/craftingtweaks.cfg"
+          }
+        },
+        {
+          "id": "ctm.cfg",
+          "name": "ctm.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 240,
+            "MD5": "ca9092804c3d5576e34098746b2843ff",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/ctm.cfg",
+            "path": "config/ctm.cfg"
+          }
+        },
+        {
+          "id": "cyclopscore.cfg",
+          "name": "cyclopscore.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1132,
+            "MD5": "629c536933e381c23724864e9e2091fe",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/cyclopscore.cfg",
+            "path": "config/cyclopscore.cfg"
+          }
+        },
+        {
+          "id": "dismantler.cfg",
+          "name": "dismantler.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 109,
+            "MD5": "cea6c8aed416bf3a2cb8830e3ba02c7d",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/dismantler.cfg",
+            "path": "config/dismantler.cfg"
+          }
+        },
+        {
+          "id": "elevatorid.cfg",
+          "name": "elevatorid.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 435,
+            "MD5": "fc6545e08d47381cebd749c94d185cc9",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/elevatorid.cfg",
+            "path": "config/elevatorid.cfg"
+          }
+        },
+        {
+          "id": "cropconfig.json",
+          "name": "cropconfig.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1351,
+            "MD5": "f3c479964506e8f9c4ae184de4cdf18f",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/endercore/cropconfig.json",
+            "path": "config/endercore/cropconfig.json"
+          }
+        },
+        {
+          "id": "endercore.cfg",
+          "name": "endercore.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 3180,
+            "MD5": "546456d9ef49be95c494fac5e5590eb1",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/endercore/endercore.cfg",
+            "path": "config/endercore/endercore.cfg"
+          }
+        },
+        {
+          "id": "EnderIO.cfg",
+          "name": "EnderIO.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 63433,
+            "MD5": "207c9c0eb96865cf10415a8ee0076077",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/enderio/EnderIO.cfg",
+            "path": "config/enderio/EnderIO.cfg"
+          }
+        },
+        {
+          "id": "enderioconduits.cfg",
+          "name": "enderioconduits.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 4434,
+            "MD5": "f16e86344529e737caa2fb05bdac37fe",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/enderio/enderioconduits.cfg",
+            "path": "config/enderio/enderioconduits.cfg"
+          }
+        },
+        {
+          "id": "enderiointegrationforestry.cfg",
+          "name": "enderiointegrationforestry.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 478,
+            "MD5": "db35e26d6a92a4c61bf7fea6ea4ee123",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/enderio/enderiointegrationforestry.cfg",
+            "path": "config/enderio/enderiointegrationforestry.cfg"
+          }
+        },
+        {
+          "id": "enderiomachines.cfg",
+          "name": "enderiomachines.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 24326,
+            "MD5": "e05ed29e5a82ac35eb8b6a8d79ed2d0d",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/enderio/enderiomachines.cfg",
+            "path": "config/enderio/enderiomachines.cfg"
+          }
+        },
+        {
+          "id": "enderiopowertools.cfg",
+          "name": "enderiopowertools.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1850,
+            "MD5": "6b7ecf4aa8294b7681438c40cef59183",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/enderio/enderiopowertools.cfg",
+            "path": "config/enderio/enderiopowertools.cfg"
+          }
+        },
+        {
+          "id": "painter_paint_sources_core.xml",
+          "name": "painter_paint_sources_core.xml",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1321,
+            "MD5": "2dcd1b9ce338ad44e5e21ccfa90078ae",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/enderio/painter_paint_sources_core.xml",
+            "path": "config/enderio/painter_paint_sources_core.xml"
+          }
+        },
+        {
+          "id": "painter_paint_sources_user.xml",
+          "name": "painter_paint_sources_user.xml",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 185,
+            "MD5": "d8e02fc0fbaede6aa859169533ad8083",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/enderio/painter_paint_sources_user.xml",
+            "path": "config/enderio/painter_paint_sources_user.xml"
+          }
+        },
+        {
+          "id": "enderstorage.cfg",
+          "name": "enderstorage.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 691,
+            "MD5": "b26c33f2f36460686a1882a26172be00",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/enderstorage.cfg",
+            "path": "config/enderstorage.cfg"
+          }
+        },
+        {
+          "id": "main.cfg",
+          "name": "main.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 569,
+            "MD5": "929a77dc19563559d842e57f8225a75a",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/environmentaltech/etlunar/main.cfg",
+            "path": "config/environmentaltech/etlunar/main.cfg"
+          }
+        },
+        {
+          "id": "main.cfg",
+          "name": "main.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 14169,
+            "MD5": "82c2dbf1e7c74a717425fa793c6c1f17",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/environmentaltech/main.cfg",
+            "path": "config/environmentaltech/main.cfg"
+          }
+        },
+        {
+          "id": "tier_1.json",
+          "name": "tier_1.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 4675,
+            "MD5": "45c08bb35771cf6380fe247332daebe8",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/environmentaltech/multiblocks/void_miner/botanic/tier_1.json",
+            "path": "config/environmentaltech/multiblocks/void_miner/botanic/tier_1.json"
+          }
+        },
+        {
+          "id": "tier_2.json",
+          "name": "tier_2.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 4675,
+            "MD5": "45c08bb35771cf6380fe247332daebe8",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/environmentaltech/multiblocks/void_miner/botanic/tier_2.json",
+            "path": "config/environmentaltech/multiblocks/void_miner/botanic/tier_2.json"
+          }
+        },
+        {
+          "id": "tier_3.json",
+          "name": "tier_3.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 4675,
+            "MD5": "45c08bb35771cf6380fe247332daebe8",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/environmentaltech/multiblocks/void_miner/botanic/tier_3.json",
+            "path": "config/environmentaltech/multiblocks/void_miner/botanic/tier_3.json"
+          }
+        },
+        {
+          "id": "tier_4.json",
+          "name": "tier_4.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 4675,
+            "MD5": "45c08bb35771cf6380fe247332daebe8",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/environmentaltech/multiblocks/void_miner/botanic/tier_4.json",
+            "path": "config/environmentaltech/multiblocks/void_miner/botanic/tier_4.json"
+          }
+        },
+        {
+          "id": "tier_5.json",
+          "name": "tier_5.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 4675,
+            "MD5": "45c08bb35771cf6380fe247332daebe8",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/environmentaltech/multiblocks/void_miner/botanic/tier_5.json",
+            "path": "config/environmentaltech/multiblocks/void_miner/botanic/tier_5.json"
+          }
+        },
+        {
+          "id": "tier_6.json",
+          "name": "tier_6.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 4675,
+            "MD5": "45c08bb35771cf6380fe247332daebe8",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/environmentaltech/multiblocks/void_miner/botanic/tier_6.json",
+            "path": "config/environmentaltech/multiblocks/void_miner/botanic/tier_6.json"
+          }
+        },
+        {
+          "id": "tier_1.json",
+          "name": "tier_1.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 9520,
+            "MD5": "b608353ceba7036e3f334a70dc9c49d4",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/environmentaltech/multiblocks/void_miner/ore/tier_1.json",
+            "path": "config/environmentaltech/multiblocks/void_miner/ore/tier_1.json"
+          }
+        },
+        {
+          "id": "tier_2.json",
+          "name": "tier_2.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 9635,
+            "MD5": "08f099b795a88d896d903b92358199d4",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/environmentaltech/multiblocks/void_miner/ore/tier_2.json",
+            "path": "config/environmentaltech/multiblocks/void_miner/ore/tier_2.json"
+          }
+        },
+        {
+          "id": "tier_3.json",
+          "name": "tier_3.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 9749,
+            "MD5": "641672b218b2e4c16aa31470f6195497",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/environmentaltech/multiblocks/void_miner/ore/tier_3.json",
+            "path": "config/environmentaltech/multiblocks/void_miner/ore/tier_3.json"
+          }
+        },
+        {
+          "id": "tier_4.json",
+          "name": "tier_4.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 9861,
+            "MD5": "34ec4136747337a35b09cff6a5877894",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/environmentaltech/multiblocks/void_miner/ore/tier_4.json",
+            "path": "config/environmentaltech/multiblocks/void_miner/ore/tier_4.json"
+          }
+        },
+        {
+          "id": "tier_5.json",
+          "name": "tier_5.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 9974,
+            "MD5": "bccc97927384b8ef3a72b54ee0bc01d6",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/environmentaltech/multiblocks/void_miner/ore/tier_5.json",
+            "path": "config/environmentaltech/multiblocks/void_miner/ore/tier_5.json"
+          }
+        },
+        {
+          "id": "tier_6.json",
+          "name": "tier_6.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 9974,
+            "MD5": "b4bcf27f88e12866004957a5af64c078",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/environmentaltech/multiblocks/void_miner/ore/tier_6.json",
+            "path": "config/environmentaltech/multiblocks/void_miner/ore/tier_6.json"
+          }
+        },
+        {
+          "id": "tier_1.json",
+          "name": "tier_1.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 7646,
+            "MD5": "03f327b0a2844bcbc5837539a7edc41d",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/environmentaltech/multiblocks/void_miner/resource/tier_1.json",
+            "path": "config/environmentaltech/multiblocks/void_miner/resource/tier_1.json"
+          }
+        },
+        {
+          "id": "tier_2.json",
+          "name": "tier_2.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 7646,
+            "MD5": "244ca5387ac2232695394dffa6e9bf0a",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/environmentaltech/multiblocks/void_miner/resource/tier_2.json",
+            "path": "config/environmentaltech/multiblocks/void_miner/resource/tier_2.json"
+          }
+        },
+        {
+          "id": "tier_3.json",
+          "name": "tier_3.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 7646,
+            "MD5": "72cb04921d4dc0198407b3d7170fcb12",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/environmentaltech/multiblocks/void_miner/resource/tier_3.json",
+            "path": "config/environmentaltech/multiblocks/void_miner/resource/tier_3.json"
+          }
+        },
+        {
+          "id": "tier_4.json",
+          "name": "tier_4.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 7646,
+            "MD5": "5598d5fc208606195031126f4ac21bc9",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/environmentaltech/multiblocks/void_miner/resource/tier_4.json",
+            "path": "config/environmentaltech/multiblocks/void_miner/resource/tier_4.json"
+          }
+        },
+        {
+          "id": "tier_5.json",
+          "name": "tier_5.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 7646,
+            "MD5": "0054cb3ecf1128a5c6d25a2e7d8ca82c",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/environmentaltech/multiblocks/void_miner/resource/tier_5.json",
+            "path": "config/environmentaltech/multiblocks/void_miner/resource/tier_5.json"
+          }
+        },
+        {
+          "id": "tier_6.json",
+          "name": "tier_6.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 7646,
+            "MD5": "11ec827b3a1a85a40d59b79a98a68d2e",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/environmentaltech/multiblocks/void_miner/resource/tier_6.json",
+            "path": "config/environmentaltech/multiblocks/void_miner/resource/tier_6.json"
+          }
+        },
+        {
+          "id": "extrautils2.cfg",
+          "name": "extrautils2.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 4129,
+            "MD5": "8941f55ad950cf45ea80bc5cce630d42",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/extrautils2.cfg",
+            "path": "config/extrautils2.cfg"
+          }
+        },
+        {
+          "id": "fastbench.cfg",
+          "name": "fastbench.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 296,
+            "MD5": "094e3989be1fe1427c04922b6fbade1a",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/fastbench.cfg",
+            "path": "config/fastbench.cfg"
+          }
+        },
+        {
+          "id": "flyringbaublemod.cfg",
+          "name": "flyringbaublemod.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 155,
+            "MD5": "1931c2ea9bb8929f111a1710bcafb07d",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/flyringbaublemod.cfg",
+            "path": "config/flyringbaublemod.cfg"
+          }
+        },
+        {
+          "id": "foamfix.cfg",
+          "name": "foamfix.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 6278,
+            "MD5": "762bc50c3045846825412f7b8543cc00",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/foamfix.cfg",
+            "path": "config/foamfix.cfg"
+          }
+        },
+        {
+          "id": "forge.cfg",
+          "name": "forge.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 3955,
+            "MD5": "f2ad8aa8e1d642921e4ddbeb5903b8eb",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/forge.cfg",
+            "path": "config/forge.cfg"
+          }
+        },
+        {
+          "id": "forgeChunkLoading.cfg",
+          "name": "forgeChunkLoading.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 2301,
+            "MD5": "6df43036b4cc4d47d6ca9f23c2be31f1",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/forgeChunkLoading.cfg",
+            "path": "config/forgeChunkLoading.cfg"
+          }
+        },
+        {
+          "id": "ftbbackups.cfg",
+          "name": "ftbbackups.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1493,
+            "MD5": "c87e70f6fc8c391de54dc88eca5bd5b7",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/ftbbackups.cfg",
+            "path": "config/ftbbackups.cfg"
+          }
+        },
+        {
+          "id": "ftblib.cfg",
+          "name": "ftblib.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1980,
+            "MD5": "2f1ee26de6ad6fbe938a2b4ef2d0a9d9",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/ftblib.cfg",
+            "path": "config/ftblib.cfg"
+          }
+        },
+        {
+          "id": "ftbutilities.cfg",
+          "name": "ftbutilities.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 6042,
+            "MD5": "d2044f34923a4e4b098732c105737807",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/ftbutilities.cfg",
+            "path": "config/ftbutilities.cfg"
+          }
+        },
+        {
+          "id": "fw.cfg",
+          "name": "fw.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1792,
+            "MD5": "28f24543b69c8af8ec690959ebd54e13",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/fw.cfg",
+            "path": "config/fw.cfg"
+          }
+        },
+        {
+          "id": "immersiveengineering.cfg",
+          "name": "immersiveengineering.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 25525,
+            "MD5": "c0a380f389ef9b59ac990e3cffc094d1",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/immersiveengineering.cfg",
+            "path": "config/immersiveengineering.cfg"
+          }
+        },
+        {
+          "id": "immersivepetroleum.cfg",
+          "name": "immersivepetroleum.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 2527,
+            "MD5": "51d9635499890bc296ff4125b7e6a4d4",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/immersivepetroleum.cfg",
+            "path": "config/immersivepetroleum.cfg"
+          }
+        },
+        {
+          "id": "industrialforegoing.cfg",
+          "name": "industrialforegoing.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 33673,
+            "MD5": "aac66c9671271b2e1d0165fb5c78acb6",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/industrialforegoing.cfg",
+            "path": "config/industrialforegoing.cfg"
+          }
+        },
+        {
+          "id": "industrialwires.cfg",
+          "name": "industrialwires.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 3578,
+            "MD5": "ac8b43bfb105888d769e5755649f481f",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/industrialwires.cfg",
+            "path": "config/industrialwires.cfg"
+          }
+        },
+        {
+          "id": "integrateddynamics.cfg",
+          "name": "integrateddynamics.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 6697,
+            "MD5": "0bd497ecea966671f7e8d98d24d5d377",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/integrateddynamics.cfg",
+            "path": "config/integrateddynamics.cfg"
+          }
+        },
+        {
+          "id": "integrateddynamicscompat.cfg",
+          "name": "integrateddynamicscompat.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 999,
+            "MD5": "fadf093e201f0fc256dc304158829ebc",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/integrateddynamicscompat.cfg",
+            "path": "config/integrateddynamicscompat.cfg"
+          }
+        },
+        {
+          "id": "integratedtunnels.cfg",
+          "name": "integratedtunnels.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1384,
+            "MD5": "d16cfee460d09c07c824849b932eb48b",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/integratedtunnels.cfg",
+            "path": "config/integratedtunnels.cfg"
+          }
+        },
+        {
+          "id": "integratedtunnelscompat.cfg",
+          "name": "integratedtunnelscompat.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 517,
+            "MD5": "6bbd6660b6fcad1513e90b0bf896d16e",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/integratedtunnelscompat.cfg",
+            "path": "config/integratedtunnelscompat.cfg"
+          }
+        },
+        {
+          "id": "blacklist.json",
+          "name": "blacklist.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 50,
+            "MD5": "93b0cfd2de60ea750560b1a4f88f26d9",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/ironbackpacks/blacklist.json",
+            "path": "config/ironbackpacks/blacklist.json"
+          }
+        },
+        {
+          "id": "ironbackpacks.cfg",
+          "name": "ironbackpacks.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1495,
+            "MD5": "38f0b0291042d0c651078ea5a1c70e7e",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/ironbackpacks/ironbackpacks.cfg",
+            "path": "config/ironbackpacks/ironbackpacks.cfg"
+          }
+        },
+        {
+          "id": "ironchest.cfg",
+          "name": "ironchest.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 163,
+            "MD5": "7b34c4495b7cdcc5143fcc86a795b68a",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/ironchest.cfg",
+            "path": "config/ironchest.cfg"
+          }
+        },
+        {
+          "id": "itemscroller.cfg",
+          "name": "itemscroller.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 6445,
+            "MD5": "403d01a4d9720a6439beaa0df5c5beef",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/itemscroller.cfg",
+            "path": "config/itemscroller.cfg"
+          }
+        },
+        {
+          "id": "itemBlacklist.cfg",
+          "name": "itemBlacklist.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 679,
+            "MD5": "d1aa29b95c320167bb4a663534b04114",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/jei/itemBlacklist.cfg",
+            "path": "config/jei/itemBlacklist.cfg"
+          }
+        },
+        {
+          "id": "jei.cfg",
+          "name": "jei.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 2932,
+            "MD5": "451a5da1a20729339df9798d09d4e471",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/jei/jei.cfg",
+            "path": "config/jei/jei.cfg"
+          }
+        },
+        {
+          "id": "searchColors.cfg",
+          "name": "searchColors.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1994,
+            "MD5": "585c420ac4e5433c27837a588927a0c0",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/jei/searchColors.cfg",
+            "path": "config/jei/searchColors.cfg"
+          }
+        },
+        {
+          "id": "jeiintegration.cfg",
+          "name": "jeiintegration.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 2442,
+            "MD5": "7d493678946a7cf99f632c06c858c4fb",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/jeiintegration.cfg",
+            "path": "config/jeiintegration.cfg"
+          }
+        },
+        {
+          "id": "jeresources.cfg",
+          "name": "jeresources.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 842,
+            "MD5": "75d351a127caee4aa83e65add47dc817",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/jeresources/jeresources.cfg",
+            "path": "config/jeresources/jeresources.cfg"
+          }
+        },
+        {
+          "id": "journeymap_ModInfo.cfg",
+          "name": "journeymap_ModInfo.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 377,
+            "MD5": "6e6f74698c472adab0930d8f18fda9c0",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/journeymap_ModInfo.cfg",
+            "path": "config/journeymap_ModInfo.cfg"
+          }
+        },
+        {
+          "id": "mcjtylib.cfg",
+          "name": "mcjtylib.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 7626,
+            "MD5": "c1f506031be7f6d0b7e76efcdb847195",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/mcjtylib.cfg",
+            "path": "config/mcjtylib.cfg"
+          }
+        },
+        {
+          "id": "BoxBlacklist.txt",
+          "name": "BoxBlacklist.txt",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 164,
+            "MD5": "dabdb199f20730c3f6307c8e05cf4893",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/mekanism/BoxBlacklist.txt",
+            "path": "config/mekanism/BoxBlacklist.txt"
+          }
+        },
+        {
+          "id": "mekanism.cfg",
+          "name": "mekanism.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 41465,
+            "MD5": "0ca188461b39014994dcea0bcaac5d2f",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/mekanism.cfg",
+            "path": "config/mekanism.cfg"
+          }
+        },
+        {
+          "id": "modnametooltip.cfg",
+          "name": "modnametooltip.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 398,
+            "MD5": "6a572b6bd61a7c648daa4eacb750d441",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/modnametooltip.cfg",
+            "path": "config/modnametooltip.cfg"
+          }
+        },
+        {
+          "id": "morpheus.cfg",
+          "name": "morpheus.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 398,
+            "MD5": "6cc1e919d5e2d0f6fd11534ee5641f34",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/morpheus.cfg",
+            "path": "config/morpheus.cfg"
+          }
+        },
+        {
+          "id": "morphtool.cfg",
+          "name": "morphtool.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1370,
+            "MD5": "df01f5e9a13019ac5d73b196f9f351ba",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/morphtool.cfg",
+            "path": "config/morphtool.cfg"
+          }
+        },
+        {
+          "id": "natura.cfg",
+          "name": "natura.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 4355,
+            "MD5": "793fef194f417eec180f468200901c64",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/natura.cfg",
+            "path": "config/natura.cfg"
+          }
+        },
+        {
+          "id": "oeintegration.cfg",
+          "name": "oeintegration.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1400,
+            "MD5": "95ea228105b4115e5035d2723a79ed01",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/oeintegration.cfg",
+            "path": "config/oeintegration.cfg"
+          }
+        },
+        {
+          "id": "oldjavawarning.cfg",
+          "name": "oldjavawarning.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 380,
+            "MD5": "d0563743445b4c18b7dc86ce7c27b739",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/oldjavawarning.cfg",
+            "path": "config/oldjavawarning.cfg"
+          }
+        },
+        {
+          "id": "openglider.cfg",
+          "name": "openglider.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 7162,
+            "MD5": "1545b13ba77037d4d6f7a9d5b1acba9d",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/openglider.cfg",
+            "path": "config/openglider.cfg"
+          }
+        },
+        {
+          "id": "oreexcavation.cfg",
+          "name": "oreexcavation.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 2527,
+            "MD5": "6a4161470d321a949656a7d4c37a05b8",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/oreexcavation.cfg",
+            "path": "config/oreexcavation.cfg"
+          }
+        },
+        {
+          "id": "oreexcavation_groups.json",
+          "name": "oreexcavation_groups.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 330,
+            "MD5": "5f2c1392737cae4173d6ef6283d5cc6a",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/oreexcavation_groups.json",
+            "path": "config/oreexcavation_groups.json"
+          }
+        },
+        {
+          "id": "oreexcavation_overrides.json",
+          "name": "oreexcavation_overrides.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 218,
+            "MD5": "51633be9faaa903e12e61a263efad410",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/oreexcavation_overrides.json",
+            "path": "config/oreexcavation_overrides.json"
+          }
+        },
+        {
+          "id": "oreexcavation_shapes.json",
+          "name": "oreexcavation_shapes.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 605,
+            "MD5": "ffed27e58bf91a47f770c40f32c866f2",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/oreexcavation_shapes.json",
+            "path": "config/oreexcavation_shapes.json"
+          }
+        },
+        {
+          "id": "p455w0rdsLib.cfg",
+          "name": "p455w0rdsLib.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1359,
+            "MD5": "30c5f9f3982a67d1c6aed5f511774749",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/p455w0rdsLib.cfg",
+            "path": "config/p455w0rdsLib.cfg"
+          }
+        },
+        {
+          "id": "placebo.cfg",
+          "name": "placebo.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 326,
+            "MD5": "ca3ba0a9e62c4e8170d533f22d0cfe84",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/placebo.cfg",
+            "path": "config/placebo.cfg"
+          }
+        },
+        {
+          "id": "quark.cfg",
+          "name": "quark.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 103858,
+            "MD5": "88e55dde901d7ccbf978785de97475c9",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/quark.cfg",
+            "path": "config/quark.cfg"
+          }
+        },
+        {
+          "id": "quickleafdecay.cfg",
+          "name": "quickleafdecay.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 297,
+            "MD5": "12023523f93811c1e67e786c81d557a0",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/quickleafdecay.cfg",
+            "path": "config/quickleafdecay.cfg"
+          }
+        },
+        {
+          "id": "rangedpumps.cfg",
+          "name": "rangedpumps.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 915,
+            "MD5": "963cd0c4dc29c25649d46bf7d0a64fa7",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/rangedpumps.cfg",
+            "path": "config/rangedpumps.cfg"
+          }
+        },
+        {
+          "id": "reborncore.cfg",
+          "name": "reborncore.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1371,
+            "MD5": "426655ba451029b74c0084d7870447b7",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/reborncore.cfg",
+            "path": "config/reborncore.cfg"
+          }
+        },
+        {
+          "id": "refinedstorage.cfg",
+          "name": "refinedstorage.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 7992,
+            "MD5": "490fca283175ce746078b1ea7e554fd5",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/refinedstorage.cfg",
+            "path": "config/refinedstorage.cfg"
+          }
+        },
+        {
+          "id": "refinedstorageaddons.cfg",
+          "name": "refinedstorageaddons.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 392,
+            "MD5": "486a40cb9be3f627c07e0dcc0c9366e6",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/refinedstorageaddons.cfg",
+            "path": "config/refinedstorageaddons.cfg"
+          }
+        },
+        {
+          "id": "rftools.cfg",
+          "name": "rftools.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 78236,
+            "MD5": "d4725acd5b1589ff844640ea5428c114",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/rftools/rftools.cfg",
+            "path": "config/rftools/rftools.cfg"
+          }
+        },
+        {
+          "id": "rftoolspower.cfg",
+          "name": "rftoolspower.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1426,
+            "MD5": "971d8fe7ceda3928768d624c375aacfa",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/rftools/rftoolspower.cfg",
+            "path": "config/rftools/rftoolspower.cfg"
+          }
+        },
+        {
+          "id": "sgextraparts.cfg",
+          "name": "sgextraparts.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 4877,
+            "MD5": "d6a909cf80f8856917f03bb756dd7602",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/sgextraparts.cfg",
+            "path": "config/sgextraparts.cfg"
+          }
+        },
+        {
+          "id": "ExtraRails.cfg",
+          "name": "ExtraRails.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 360,
+            "MD5": "57f47bedf6b5d95a3eb8a27c201d3cc5",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/shadowfacts/ExtraRails.cfg",
+            "path": "config/shadowfacts/ExtraRails.cfg"
+          }
+        },
+        {
+          "id": "ShadowMC.cfg",
+          "name": "ShadowMC.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 276,
+            "MD5": "bc89d6b282961cd0d5fb66445260238d",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/shadowfacts/ShadowMC.cfg",
+            "path": "config/shadowfacts/ShadowMC.cfg"
+          }
+        },
+        {
+          "id": "silentgems.cfg",
+          "name": "silentgems.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 36755,
+            "MD5": "3965641d0a27541d9229e6694ee340a3",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/silentgems.cfg",
+            "path": "config/silentgems.cfg"
+          }
+        },
+        {
+          "id": "splash.properties",
+          "name": "splash.properties",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 376,
+            "MD5": "84f5e50bf3a1771d84ec8fee6170efa8",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/splash.properties",
+            "path": "config/splash.properties"
+          }
+        },
+        {
+          "id": "ShardTiers.json",
+          "name": "ShardTiers.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1100,
+            "MD5": "19b35704f2d04fc265812ad172ce6819",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/sstow/ShardTiers.json",
+            "path": "config/sstow/ShardTiers.json"
+          }
+        },
+        {
+          "id": "SoulShards.cfg",
+          "name": "SoulShards.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 7607,
+            "MD5": "a71062e4ebe4d1b9eb6e54ba54f26cf3",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/sstow/SoulShards.cfg",
+            "path": "config/sstow/SoulShards.cfg"
+          }
+        },
+        {
+          "id": "stg.cfg",
+          "name": "stg.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 350,
+            "MD5": "b2ddc6d7b2259cd289885d8d3e3ddbb4",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/stg.cfg",
+            "path": "config/stg.cfg"
+          }
+        },
+        {
+          "id": "storagedrawers.cfg",
+          "name": "storagedrawers.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 2567,
+            "MD5": "00fa36a20fbc30e9e1330fa98ae2d4a3",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/storagedrawers.cfg",
+            "path": "config/storagedrawers.cfg"
+          }
+        },
+        {
+          "id": "tconstruct.cfg",
+          "name": "tconstruct.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 6411,
+            "MD5": "d19d56e71f51e70aa69469ce25313d3e",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/tconstruct.cfg",
+            "path": "config/tconstruct.cfg"
+          }
+        },
+        {
+          "id": "energy_priority.json",
+          "name": "energy_priority.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 46,
+            "MD5": "3d6b01f6f9e9ea51f0f5fd5e8d376462",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/teamreborn/energy_priority.json",
+            "path": "config/teamreborn/energy_priority.json"
+          }
+        },
+        {
+          "id": "client.cfg",
+          "name": "client.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 388,
+            "MD5": "7fe77922661d35bf486323ff263078b1",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/teamreborn/reborncore/client.cfg",
+            "path": "config/teamreborn/reborncore/client.cfg"
+          }
+        },
+        {
+          "id": "misc.cfg",
+          "name": "misc.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 638,
+            "MD5": "12c7eb57ceb5d1ecf4cb2137081c9cea",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/teamreborn/reborncore/misc.cfg",
+            "path": "config/teamreborn/reborncore/misc.cfg"
+          }
+        },
+        {
+          "id": "power.cfg",
+          "name": "power.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 390,
+            "MD5": "9c19db3de57ff0688b81f87cdf7cb8b0",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/teamreborn/reborncore/power.cfg",
+            "path": "config/teamreborn/reborncore/power.cfg"
+          }
+        },
+        {
+          "id": "upgrades.cfg",
+          "name": "upgrades.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 479,
+            "MD5": "0518d34b7682a3338324f2e438e765ed",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/teamreborn/reborncore/upgrades.cfg",
+            "path": "config/teamreborn/reborncore/upgrades.cfg"
+          }
+        },
+        {
+          "id": "config.cfg",
+          "name": "config.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 513,
+            "MD5": "302b0eeb8f2eaffb9ec6192069ebe2b5",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/teamreborn/rebornstorage/config.cfg",
+            "path": "config/teamreborn/rebornstorage/config.cfg"
+          }
+        },
+        {
+          "id": "compat.cfg",
+          "name": "compat.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1515,
+            "MD5": "f526159716cd119ee37756a9146c3adf",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/teamreborn/techreborn/compat.cfg",
+            "path": "config/teamreborn/techreborn/compat.cfg"
+          }
+        },
+        {
+          "id": "generators.cfg",
+          "name": "generators.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 5289,
+            "MD5": "ee3bf9e74d144c8e32d3f7a911fb5fc9",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/teamreborn/techreborn/generators.cfg",
+            "path": "config/teamreborn/techreborn/generators.cfg"
+          }
+        },
+        {
+          "id": "items.cfg",
+          "name": "items.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 2400,
+            "MD5": "6822c25724c8e08a5b69b9f309a49b74",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/teamreborn/techreborn/items.cfg",
+            "path": "config/teamreborn/techreborn/items.cfg"
+          }
+        },
+        {
+          "id": "machines.cfg",
+          "name": "machines.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 8566,
+            "MD5": "2cb6fbb5488e0cf8162f496019d1e2ef",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/teamreborn/techreborn/machines.cfg",
+            "path": "config/teamreborn/techreborn/machines.cfg"
+          }
+        },
+        {
+          "id": "misc.cfg",
+          "name": "misc.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 5203,
+            "MD5": "cab1b13206b51459188c949f1d89db62",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/teamreborn/techreborn/misc.cfg",
+            "path": "config/teamreborn/techreborn/misc.cfg"
+          }
+        },
+        {
+          "id": "ores.json",
+          "name": "ores.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 4222,
+            "MD5": "39fa992475872d986cfde83742dfd187",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/teamreborn/techreborn/ores.json",
+            "path": "config/teamreborn/techreborn/ores.json"
+          }
+        },
+        {
+          "id": "recipes.cfg",
+          "name": "recipes.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 768,
+            "MD5": "1a1e9c8138d6460921d31eac52e89797",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/teamreborn/techreborn/recipes.cfg",
+            "path": "config/teamreborn/techreborn/recipes.cfg"
+          }
+        },
+        {
+          "id": "world.cfg",
+          "name": "world.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 883,
+            "MD5": "18d2ac618fac53fa908443802f9b4b78",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/teamreborn/techreborn/world.cfg",
+            "path": "config/teamreborn/techreborn/world.cfg"
+          }
+        },
+        {
+          "id": "teslacorelib.cfg",
+          "name": "teslacorelib.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 2146,
+            "MD5": "986054a6a52377f3229a57f1621c075a",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/teslacorelib.cfg",
+            "path": "config/teslacorelib.cfg"
+          }
+        },
+        {
+          "id": "thaumcraft_graphics.cfg",
+          "name": "thaumcraft_graphics.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1095,
+            "MD5": "cf26412eb3d3353ce6b922290dc5c83c",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/thaumcraft_graphics.cfg",
+            "path": "config/thaumcraft_graphics.cfg"
+          }
+        },
+        {
+          "id": "thaumcraft_misc.cfg",
+          "name": "thaumcraft_misc.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 964,
+            "MD5": "b2b86c71f1042569fe8268f4444b4fd6",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/thaumcraft_misc.cfg",
+            "path": "config/thaumcraft_misc.cfg"
+          }
+        },
+        {
+          "id": "thaumcraft_world.cfg",
+          "name": "thaumcraft_world.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 2105,
+            "MD5": "35d37b041ca66e3a67d79eebc564b1be",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/thaumcraft_world.cfg",
+            "path": "config/thaumcraft_world.cfg"
+          }
+        },
+        {
+          "id": "thaumicjei.cfg",
+          "name": "thaumicjei.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 868,
+            "MD5": "21192b33add859f6e6bbd8c8fbfbe39d",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/thaumicjei.cfg",
+            "path": "config/thaumicjei.cfg"
+          }
+        },
+        {
+          "id": "theoneprobe.cfg",
+          "name": "theoneprobe.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 13201,
+            "MD5": "6df9c741f647d7b80b8ed4392a09dc9c",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/theoneprobe.cfg",
+            "path": "config/theoneprobe.cfg"
+          }
+        },
+        {
+          "id": "tinkersaddons.cfg",
+          "name": "tinkersaddons.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 721,
+            "MD5": "8ed334e2410d948dd9935b3592e4fa3d",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/tinkersaddons.cfg",
+            "path": "config/tinkersaddons.cfg"
+          }
+        },
+        {
+          "id": "toastcontrol.cfg",
+          "name": "toastcontrol.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 1926,
+            "MD5": "81c36d6f52a9daa07012feee47c2ab72",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/toastcontrol.cfg",
+            "path": "config/toastcontrol.cfg"
+          }
+        },
+        {
+          "id": "tombmanygraves.cfg",
+          "name": "tombmanygraves.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 6365,
+            "MD5": "2839db4bdf5ab22b59cdece8757662d1",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/tombmanygraves.cfg",
+            "path": "config/tombmanygraves.cfg"
+          }
+        },
+        {
+          "id": "traverse.cfg",
+          "name": "traverse.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 2995,
+            "MD5": "a2334c00310f7fc904e56f9125af7cc8",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/traverse/traverse.cfg",
+            "path": "config/traverse/traverse.cfg"
+          }
+        },
+        {
+          "id": "main.cfg",
+          "name": "main.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 505,
+            "MD5": "98a459e058f608aa8db99cdc258fb6f2",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/valkyrielib/main.cfg",
+            "path": "config/valkyrielib/main.cfg"
+          }
+        },
+        {
+          "id": "dark.json",
+          "name": "dark.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 143,
+            "MD5": "c4e83e96e2bb99eaa0891514e32c0151",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/waila/theme/dark.json",
+            "path": "config/waila/theme/dark.json"
+          }
+        },
+        {
+          "id": "vanilla.json",
+          "name": "vanilla.json",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 146,
+            "MD5": "80a3c6c0ace808a710feb8cc9ac03c18",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/waila/theme/vanilla.json",
+            "path": "config/waila/theme/vanilla.json"
+          }
+        },
+        {
+          "id": "waila.cfg",
+          "name": "waila.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 3379,
+            "MD5": "6de1b4099e7dc576f847f06845e648b5",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/waila/waila.cfg",
+            "path": "config/waila/waila.cfg"
+          }
+        },
+        {
+          "id": "xnet.cfg",
+          "name": "xnet.cfg",
+          "type": "File",
+          "required": {
+            "value": false,
+            "def": false
+          },
+          "artifact": {
+            "size": 3654,
+            "MD5": "bb52185b9f2f3fd1082a0f214732b41a",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/xnet/xnet.cfg",
+            "path": "config/xnet/xnet.cfg"
           }
         }
       ]
