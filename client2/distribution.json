@@ -1,17 +1,26 @@
 {
   "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
   "servers": [
     {
       "id": "LBOE-1.12.2",
       "name": "LBOE (Minecraft 1.12.2)",
       "description": "LBOE Running Minecraft 1.12.2 (Forge v14.23.5.2854)",
-      "icon": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/icon.png",
+      "icon": null,
       "version": "1.0.0",
-      "address": "192.95.36.158:25592",
+      "address": "localhost:25565",
       "minecraftVersion": "1.12.2",
-      
-      "mainServer": true,
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+      },
+      "mainServer": false,
       "autoconnect": false,
       "modules": [
         {
@@ -588,20 +597,6 @@
             "size": 97854,
             "MD5": "ffd1e2b5c4f244f4a7c6d4ee2e4c2090",
             "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/forgemods/CraftingTweaks_1.12.2-8.1.9.jar"
-          }
-        },
-        {
-          "id": "generated.forgemod:custommainmenu:2.0.9@jar",
-          "name": "Custom Main Menu",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 177791,
-            "MD5": "0d34d658c07ebe9dd36aba17e59f8d3d",
-            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/forgemods/CustomMainMenu-MC1.12.2-2.0.9.jar"
           }
         },
         {
@@ -2129,21 +2124,6 @@
             "MD5": "d41d8cd98f00b204e9800998ecf8427e",
             "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/ConfigPush.txt",
             "path": "config/ConfigPush.txt"
-          }
-        },
-        {
-          "id": "mainmenu.json",
-          "name": "mainmenu.json",
-          "type": "File",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 4251,
-            "MD5": "9b550645d792fc1636b339802cdb5a6f",
-            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/CustomMainMenu/mainmenu.json",
-            "path": "config/CustomMainMenu/mainmenu.json"
           }
         },
         {
