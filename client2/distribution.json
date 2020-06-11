@@ -240,8 +240,8 @@
           "name": "Actually Additions",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 2938988,
@@ -254,8 +254,8 @@
           "name": "Actually Baubles",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 11604,
@@ -268,8 +268,8 @@
           "name": "Akashic Tome",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 44663,
@@ -282,8 +282,8 @@
           "name": "AppleSkin",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 32317,
@@ -296,8 +296,8 @@
           "name": "Aroma1997Core",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 398657,
@@ -310,8 +310,8 @@
           "name": "Aroma1997's Dimensional World",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 80721,
@@ -324,8 +324,8 @@
           "name": "AutoRegLib",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 108306,
@@ -338,8 +338,8 @@
           "name": "Baubles",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 108450,
@@ -352,8 +352,8 @@
           "name": "Better Builder's Wands",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 77866,
@@ -366,8 +366,8 @@
           "name": "BetterFps-1.4.8.jar",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 155196,
@@ -380,8 +380,8 @@
           "name": "Biomes O' Plenty",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 4696621,
@@ -394,8 +394,8 @@
           "name": "Bookshelf",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 266512,
@@ -408,8 +408,8 @@
           "name": "Botania",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 13820816,
@@ -422,8 +422,8 @@
           "name": "CTM",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 194281,
@@ -436,8 +436,8 @@
           "name": "Ceramics",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 400538,
@@ -450,8 +450,8 @@
           "name": "Chameleon",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 96859,
@@ -464,8 +464,8 @@
           "name": "Chisel-MC1.12.2-0.2.1.35.jar",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 4310011,
@@ -478,8 +478,8 @@
           "name": "Clumps",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 13792,
@@ -492,8 +492,8 @@
           "name": "CoFH Core",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 847938,
@@ -506,8 +506,8 @@
           "name": "CoFH World",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 532040,
@@ -520,8 +520,8 @@
           "name": "CodeChicken Lib",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 704089,
@@ -534,8 +534,8 @@
           "name": "CommonCapabilities",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 361406,
@@ -548,8 +548,8 @@
           "name": "Controlling",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 27162,
@@ -562,8 +562,8 @@
           "name": "CraftTweaker2",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1368377,
@@ -576,8 +576,8 @@
           "name": "Crafting Tweaks",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 97854,
@@ -590,8 +590,8 @@
           "name": "Custom Main Menu",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 177791,
@@ -604,8 +604,8 @@
           "name": "Cyclops Core",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1056580,
@@ -618,8 +618,8 @@
           "name": "/dank/null",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 353517,
@@ -632,8 +632,8 @@
           "name": "DiscordSuite",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 32571,
@@ -646,8 +646,8 @@
           "name": "Draconic Evolution",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 5705834,
@@ -660,8 +660,8 @@
           "name": "Elevator Mod",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 107585,
@@ -674,8 +674,8 @@
           "name": "Lapis Stays in the Enchanting Table",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 37704,
@@ -688,8 +688,8 @@
           "name": "EnderCore",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 639982,
@@ -702,8 +702,8 @@
           "name": "Ender IO",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 7776763,
@@ -716,8 +716,8 @@
           "name": "EnderStorage",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 223250,
@@ -730,8 +730,8 @@
           "name": "Extra Cells 2",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 2563518,
@@ -744,8 +744,8 @@
           "name": "Extra Rails",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 53565,
@@ -758,8 +758,8 @@
           "name": "Extreme Reactors",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1110113,
@@ -772,8 +772,8 @@
           "name": "FTB Library",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 915679,
@@ -786,8 +786,8 @@
           "name": "FTB Utilities",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 422510,
@@ -800,8 +800,8 @@
           "name": "FTB Utilities: Backups",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 42104,
@@ -814,8 +814,8 @@
           "name": "FastWorkbench",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 26322,
@@ -828,8 +828,8 @@
           "name": "Shadowfacts' Forgelin",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 5772310,
@@ -842,8 +842,8 @@
           "name": "Fullscreen Windowed",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 18396,
@@ -856,8 +856,8 @@
           "name": "Guide-API",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 169528,
@@ -870,8 +870,8 @@
           "name": "Immersive Engineering",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 6542920,
@@ -884,8 +884,8 @@
           "name": "Industrial Wires",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1241169,
@@ -898,8 +898,8 @@
           "name": "InitialInventory",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 7863,
@@ -912,8 +912,8 @@
           "name": "Integrated Dynamics",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 3024218,
@@ -926,8 +926,8 @@
           "name": "Integrated Tunnels",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 484209,
@@ -940,8 +940,8 @@
           "name": "Integration Foregoing",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 172247,
@@ -954,8 +954,8 @@
           "name": "Inventory Tweaks",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 285813,
@@ -968,8 +968,8 @@
           "name": "Iron Backpacks",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 465363,
@@ -982,8 +982,8 @@
           "name": "Just Enough Resources",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 222270,
@@ -996,8 +996,8 @@
           "name": "Light Level Overlay Reloaded",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 17931,
@@ -1010,8 +1010,8 @@
           "name": "MTLib",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 30002,
@@ -1024,8 +1024,8 @@
           "name": "Mantle",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 843486,
@@ -1038,8 +1038,8 @@
           "name": "Mekanism",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 7859461,
@@ -1052,8 +1052,8 @@
           "name": "Mekanism: Generators",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 336247,
@@ -1066,8 +1066,8 @@
           "name": "Mekanism: Tools",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 158884,
@@ -1080,8 +1080,8 @@
           "name": "Morph-o-Tool",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 30619,
@@ -1094,8 +1094,8 @@
           "name": "Morpheus",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 21508,
@@ -1108,8 +1108,8 @@
           "name": "NetherPortalFix",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 109445,
@@ -1122,8 +1122,8 @@
           "name": "Old Java Warning",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 8659,
@@ -1136,8 +1136,8 @@
           "name": "Open Glider",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 109626,
@@ -1150,8 +1150,8 @@
           "name": "OreExcavation",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 180481,
@@ -1164,8 +1164,8 @@
           "name": "Placebo",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 76902,
@@ -1178,8 +1178,8 @@
           "name": "Quark",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 3178251,
@@ -1192,8 +1192,8 @@
           "name": "Quick Leaf Decay",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 7074,
@@ -1206,8 +1206,8 @@
           "name": "Reborn Core",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1936262,
@@ -1220,8 +1220,8 @@
           "name": "RebornStorage",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 80180,
@@ -1234,8 +1234,8 @@
           "name": "Redstone Flux",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 36278,
@@ -1248,8 +1248,8 @@
           "name": "Resource Loader",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 16612,
@@ -1262,8 +1262,8 @@
           "name": "Silent's Gems: Extra Parts",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 105448,
@@ -1276,8 +1276,8 @@
           "name": "ShadowMC",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 464802,
@@ -1290,8 +1290,8 @@
           "name": "Silent Lib",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 588846,
@@ -1304,8 +1304,8 @@
           "name": "SilentsGems-1.12.2-2.8.18+322.jar",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 3477458,
@@ -1318,8 +1318,8 @@
           "name": "Soul Shards - The Old Ways",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 267559,
@@ -1332,8 +1332,8 @@
           "name": "Storage Drawers",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 596220,
@@ -1346,8 +1346,8 @@
           "name": "Tinkers' Construct",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 4004838,
@@ -1360,8 +1360,8 @@
           "name": "Tech Reborn",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 2516791,
@@ -1374,8 +1374,8 @@
           "name": "Thaumcraft",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 11360786,
@@ -1388,8 +1388,8 @@
           "name": "ThaumicJEI",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 59213,
@@ -1402,8 +1402,8 @@
           "name": "Thermal Cultivation",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 106843,
@@ -1416,8 +1416,8 @@
           "name": "Thermal Dynamics",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 762980,
@@ -1430,8 +1430,8 @@
           "name": "Thermal Expansion",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 2426151,
@@ -1444,8 +1444,8 @@
           "name": "Thermal Foundation",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 2312713,
@@ -1458,8 +1458,8 @@
           "name": "Tinkers' Addons",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 44044,
@@ -1472,8 +1472,8 @@
           "name": "Toast Control",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 21668,
@@ -1486,8 +1486,8 @@
           "name": "Tomb Many Graves",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 150657,
@@ -1500,8 +1500,8 @@
           "name": "Traverse",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 270133,
@@ -1514,8 +1514,8 @@
           "name": "VanillaFix",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1025896,
@@ -1528,8 +1528,8 @@
           "name": "Example Mod",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 10081,
@@ -1542,8 +1542,8 @@
           "name": "Adventure Tools",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 62139,
@@ -1556,8 +1556,8 @@
           "name": "AE2 Stuff",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 513374,
@@ -1570,8 +1570,8 @@
           "name": "AngelRing 2 Bauble",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 44041,
@@ -1584,8 +1584,8 @@
           "name": "Applied Energistics 2",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 4062630,
@@ -1598,8 +1598,8 @@
           "name": "Astral Sorcery",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 24931617,
@@ -1612,8 +1612,8 @@
           "name": "Bad Wither No Cookie! Reloaded",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 11034,
@@ -1626,8 +1626,8 @@
           "name": "B.A.S.E",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 685028,
@@ -1640,8 +1640,8 @@
           "name": "BD Lib",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1962731,
@@ -1654,8 +1654,8 @@
           "name": "Bed Patch",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 21613,
@@ -1668,8 +1668,8 @@
           "name": "Comforts",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 166714,
@@ -1682,8 +1682,8 @@
           "name": "Construct's Armory",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 891955,
@@ -1696,8 +1696,8 @@
           "name": "Diet Hopper",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 5222,
@@ -1710,8 +1710,8 @@
           "name": "Environmental Tech",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1001848,
@@ -1724,8 +1724,8 @@
           "name": "ET Lunar",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 63844,
@@ -1738,8 +1738,8 @@
           "name": "Extra Utilities 2",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 3226408,
@@ -1752,8 +1752,8 @@
           "name": "FoamFix",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 211210,
@@ -1766,8 +1766,8 @@
           "name": "Immersive Petroleum",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 906018,
@@ -1780,8 +1780,8 @@
           "name": "Industrial Foregoing",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1603134,
@@ -1794,8 +1794,8 @@
           "name": "Ironchest-1.12.2-7.0.72.847.jar",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 956692,
@@ -1808,8 +1808,8 @@
           "name": "Item Scroller",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 70937,
@@ -1822,8 +1822,8 @@
           "name": "Just Enough Items",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 650295,
@@ -1836,8 +1836,8 @@
           "name": "JEI Integration",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 54046,
@@ -1850,8 +1850,8 @@
           "name": "JourneyMap",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1920463,
@@ -1864,8 +1864,8 @@
           "name": "McJtyLib",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 544856,
@@ -1878,8 +1878,8 @@
           "name": "Mod Name Tooltip",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 12732,
@@ -1892,8 +1892,8 @@
           "name": "Natura",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1142687,
@@ -1906,8 +1906,8 @@
           "name": "OreExcavation Integration",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 25526,
@@ -1920,8 +1920,8 @@
           "name": "P455w0rd's Library",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 378508,
@@ -1934,8 +1934,8 @@
           "name": "Ranged Pumps",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 21519,
@@ -1948,8 +1948,8 @@
           "name": "ReAuth",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 30446,
@@ -1962,8 +1962,8 @@
           "name": "Refined Storage",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1911631,
@@ -1976,8 +1976,8 @@
           "name": "Refined Storage Addons",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 26716,
@@ -1990,8 +1990,8 @@
           "name": "RFTools",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 2895812,
@@ -2004,8 +2004,8 @@
           "name": "Rftoolspower-1.12-1.2.0.jar",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 148083,
@@ -2018,8 +2018,8 @@
           "name": "SwingThroughGrass",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 24024,
@@ -2032,8 +2032,8 @@
           "name": "Tesla Core Lib",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1140374,
@@ -2046,8 +2046,8 @@
           "name": "The One Probe",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 301893,
@@ -2060,8 +2060,8 @@
           "name": "TombManyGraves2 API",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 10891,
@@ -2074,8 +2074,8 @@
           "name": "Valkyrie Lib",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 733580,
@@ -2088,8 +2088,8 @@
           "name": "XNet",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 496307,
@@ -2102,8 +2102,8 @@
           "name": "Zero CORE",
           "type": "ForgeMod",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 228623,
@@ -2116,8 +2116,8 @@
           "name": "ConfigPush.txt",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 0,
@@ -2131,8 +2131,8 @@
           "name": "mainmenu.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 4251,
@@ -2146,8 +2146,8 @@
           "name": "DankNull.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1756,
@@ -2161,8 +2161,8 @@
           "name": "DiscordSuite.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 63,
@@ -2176,8 +2176,8 @@
           "name": "ElevatorMod.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 329,
@@ -2191,8 +2191,8 @@
           "name": "Guide-API.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1554,
@@ -2206,8 +2206,8 @@
           "name": "IntegrationForegoing.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 2252,
@@ -2221,8 +2221,8 @@
           "name": "InvTweaks.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 771,
@@ -2236,8 +2236,8 @@
           "name": "InvTweaks.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 742,
@@ -2251,8 +2251,8 @@
           "name": "InvTweaksRules.txt",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1267,
@@ -2266,8 +2266,8 @@
           "name": "InvTweaksTree.txt",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 64164,
@@ -2281,8 +2281,8 @@
           "name": "LLOverlayReloaded.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 794,
@@ -2296,8 +2296,8 @@
           "name": "NaturaModules.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 608,
@@ -2311,8 +2311,8 @@
           "name": "TinkerModules.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 567,
@@ -2326,8 +2326,8 @@
           "name": "General.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 923,
@@ -2341,8 +2341,8 @@
           "name": "actuallyadditions.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 24504,
@@ -2356,8 +2356,8 @@
           "name": "adventurepack.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 924,
@@ -2371,8 +2371,8 @@
           "name": "akashictome.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1135,
@@ -2386,8 +2386,8 @@
           "name": "appleskin.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1333,
@@ -2401,8 +2401,8 @@
           "name": "aroma1997core.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 0,
@@ -2416,8 +2416,8 @@
           "name": "aroma1997sdimension.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 2430,
@@ -2431,8 +2431,8 @@
           "name": "aroma1997sdimension_gen.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 2369,
@@ -2446,8 +2446,8 @@
           "name": "aevitas_ore_perk.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1494,
@@ -2461,8 +2461,8 @@
           "name": "amulet_enchantments.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 4090,
@@ -2476,8 +2476,8 @@
           "name": "fluid_rarities.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 2150,
@@ -2491,8 +2491,8 @@
           "name": "herdable_animals_blacklist.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 586,
@@ -2506,8 +2506,8 @@
           "name": "mineralis_ritual.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1494,
@@ -2521,8 +2521,8 @@
           "name": "perk_void_trash_replacement.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1494,
@@ -2536,8 +2536,8 @@
           "name": "treasure_shrine.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1494,
@@ -2551,8 +2551,8 @@
           "name": "astralsorcery.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 51356,
@@ -2566,8 +2566,8 @@
           "name": "badwithernocookiereloaded.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1487,
@@ -2581,8 +2581,8 @@
           "name": "baubles.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 162,
@@ -2596,8 +2596,8 @@
           "name": "betterbuilderswands.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 2105,
@@ -2611,8 +2611,8 @@
           "name": "betterfps.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 176,
@@ -2626,8 +2626,8 @@
           "name": "bookshelf.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1590,
@@ -2641,8 +2641,8 @@
           "name": "botania.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 8769,
@@ -2656,8 +2656,8 @@
           "name": "ceramics.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 2541,
@@ -2671,8 +2671,8 @@
           "name": "chisel.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 4758,
@@ -2686,8 +2686,8 @@
           "name": "supporters.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 601,
@@ -2701,8 +2701,8 @@
           "name": "supporters.marker",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 13,
@@ -2716,8 +2716,8 @@
           "name": "codechickenlib.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1495,
@@ -2731,8 +2731,8 @@
           "name": "client.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1709,
@@ -2746,8 +2746,8 @@
           "name": "common.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 4122,
@@ -2761,8 +2761,8 @@
           "name": "friends.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 0,
@@ -2776,8 +2776,8 @@
           "name": "client.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 66,
@@ -2791,8 +2791,8 @@
           "name": "common.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 644,
@@ -2806,8 +2806,8 @@
           "name": "client.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 725,
@@ -2821,8 +2821,8 @@
           "name": "common.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 959,
@@ -2836,8 +2836,8 @@
           "name": "client.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 3389,
@@ -2851,8 +2851,8 @@
           "name": "common.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 28147,
@@ -2866,8 +2866,8 @@
           "name": "florbs.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 369,
@@ -2881,8 +2881,8 @@
           "name": "morbs.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 447,
@@ -2896,8 +2896,8 @@
           "name": "client.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1566,
@@ -2911,8 +2911,8 @@
           "name": "common.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 16983,
@@ -2926,8 +2926,8 @@
           "name": "lexicon-whitelist.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 22309,
@@ -2941,8 +2941,8 @@
           "name": "client.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 66,
@@ -2956,8 +2956,8 @@
           "name": "common.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 2255,
@@ -2971,8 +2971,8 @@
           "name": "00_minecraft.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 7036,
@@ -2986,8 +2986,8 @@
           "name": "01_thermalfoundation_ores.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 4263,
@@ -3001,8 +3001,8 @@
           "name": "02_thermalfoundation_oil.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 3479,
@@ -3016,8 +3016,8 @@
           "name": "03_thermalfoundation_clathrates.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1958,
@@ -3031,8 +3031,8 @@
           "name": "config.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1475,
@@ -3046,8 +3046,8 @@
           "name": "comforts.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1115,
@@ -3061,8 +3061,8 @@
           "name": "commoncapabilities.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1634,
@@ -3076,8 +3076,8 @@
           "name": "conarm.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 913,
@@ -3091,8 +3091,8 @@
           "name": "craftingtweaks.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 2299,
@@ -3106,8 +3106,8 @@
           "name": "ctm.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 240,
@@ -3121,8 +3121,8 @@
           "name": "cyclopscore.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1132,
@@ -3136,8 +3136,8 @@
           "name": "dismantler.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 109,
@@ -3151,8 +3151,8 @@
           "name": "elevatorid.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 435,
@@ -3166,8 +3166,8 @@
           "name": "cropconfig.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1351,
@@ -3181,8 +3181,8 @@
           "name": "endercore.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 3180,
@@ -3196,8 +3196,8 @@
           "name": "EnderIO.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 63433,
@@ -3211,8 +3211,8 @@
           "name": "enderioconduits.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 4434,
@@ -3226,8 +3226,8 @@
           "name": "enderiointegrationforestry.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 478,
@@ -3241,8 +3241,8 @@
           "name": "enderiomachines.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 24326,
@@ -3256,8 +3256,8 @@
           "name": "enderiopowertools.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1850,
@@ -3271,8 +3271,8 @@
           "name": "painter_paint_sources_core.xml",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1321,
@@ -3286,8 +3286,8 @@
           "name": "painter_paint_sources_user.xml",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 185,
@@ -3301,8 +3301,8 @@
           "name": "enderstorage.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 691,
@@ -3316,8 +3316,8 @@
           "name": "main.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 569,
@@ -3331,8 +3331,8 @@
           "name": "main.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 14169,
@@ -3346,8 +3346,8 @@
           "name": "tier_1.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 4675,
@@ -3361,8 +3361,8 @@
           "name": "tier_2.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 4675,
@@ -3376,8 +3376,8 @@
           "name": "tier_3.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 4675,
@@ -3391,8 +3391,8 @@
           "name": "tier_4.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 4675,
@@ -3406,8 +3406,8 @@
           "name": "tier_5.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 4675,
@@ -3421,8 +3421,8 @@
           "name": "tier_6.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 4675,
@@ -3436,8 +3436,8 @@
           "name": "tier_1.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 9520,
@@ -3451,8 +3451,8 @@
           "name": "tier_2.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 9635,
@@ -3466,8 +3466,8 @@
           "name": "tier_3.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 9749,
@@ -3481,8 +3481,8 @@
           "name": "tier_4.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 9861,
@@ -3496,8 +3496,8 @@
           "name": "tier_5.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 9974,
@@ -3511,8 +3511,8 @@
           "name": "tier_6.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 9974,
@@ -3526,8 +3526,8 @@
           "name": "tier_1.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 7646,
@@ -3541,8 +3541,8 @@
           "name": "tier_2.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 7646,
@@ -3556,8 +3556,8 @@
           "name": "tier_3.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 7646,
@@ -3571,8 +3571,8 @@
           "name": "tier_4.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 7646,
@@ -3586,8 +3586,8 @@
           "name": "tier_5.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 7646,
@@ -3601,8 +3601,8 @@
           "name": "tier_6.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 7646,
@@ -3616,8 +3616,8 @@
           "name": "extrautils2.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 4129,
@@ -3631,8 +3631,8 @@
           "name": "fastbench.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 296,
@@ -3646,8 +3646,8 @@
           "name": "flyringbaublemod.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 155,
@@ -3661,8 +3661,8 @@
           "name": "foamfix.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 6278,
@@ -3676,8 +3676,8 @@
           "name": "forge.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 3955,
@@ -3691,8 +3691,8 @@
           "name": "forgeChunkLoading.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 2301,
@@ -3706,8 +3706,8 @@
           "name": "ftbbackups.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1493,
@@ -3721,8 +3721,8 @@
           "name": "ftblib.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1980,
@@ -3736,8 +3736,8 @@
           "name": "ftbutilities.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 6042,
@@ -3751,8 +3751,8 @@
           "name": "fw.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1792,
@@ -3766,8 +3766,8 @@
           "name": "immersiveengineering.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 25525,
@@ -3781,8 +3781,8 @@
           "name": "immersivepetroleum.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 2527,
@@ -3796,8 +3796,8 @@
           "name": "industrialforegoing.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 33673,
@@ -3811,8 +3811,8 @@
           "name": "industrialwires.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 3578,
@@ -3826,8 +3826,8 @@
           "name": "integrateddynamics.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 6697,
@@ -3841,8 +3841,8 @@
           "name": "integrateddynamicscompat.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 999,
@@ -3856,8 +3856,8 @@
           "name": "integratedtunnels.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1384,
@@ -3871,8 +3871,8 @@
           "name": "integratedtunnelscompat.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 517,
@@ -3886,8 +3886,8 @@
           "name": "blacklist.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 50,
@@ -3901,8 +3901,8 @@
           "name": "ironbackpacks.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1495,
@@ -3916,8 +3916,8 @@
           "name": "ironchest.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 163,
@@ -3931,8 +3931,8 @@
           "name": "itemscroller.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 6445,
@@ -3946,8 +3946,8 @@
           "name": "itemBlacklist.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 679,
@@ -3961,8 +3961,8 @@
           "name": "jei.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 2932,
@@ -3976,8 +3976,8 @@
           "name": "searchColors.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1994,
@@ -3991,8 +3991,8 @@
           "name": "jeiintegration.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 2442,
@@ -4006,8 +4006,8 @@
           "name": "jeresources.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 842,
@@ -4021,8 +4021,8 @@
           "name": "journeymap_ModInfo.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 377,
@@ -4036,8 +4036,8 @@
           "name": "mcjtylib.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 7626,
@@ -4051,8 +4051,8 @@
           "name": "BoxBlacklist.txt",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 164,
@@ -4066,8 +4066,8 @@
           "name": "mekanism.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 41465,
@@ -4081,8 +4081,8 @@
           "name": "modnametooltip.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 398,
@@ -4096,8 +4096,8 @@
           "name": "morpheus.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 398,
@@ -4111,8 +4111,8 @@
           "name": "morphtool.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1370,
@@ -4126,8 +4126,8 @@
           "name": "natura.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 4355,
@@ -4141,8 +4141,8 @@
           "name": "oeintegration.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1400,
@@ -4156,8 +4156,8 @@
           "name": "oldjavawarning.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 380,
@@ -4171,8 +4171,8 @@
           "name": "openglider.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 7162,
@@ -4186,8 +4186,8 @@
           "name": "oreexcavation.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 2527,
@@ -4201,8 +4201,8 @@
           "name": "oreexcavation_groups.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 330,
@@ -4216,8 +4216,8 @@
           "name": "oreexcavation_overrides.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 218,
@@ -4231,8 +4231,8 @@
           "name": "oreexcavation_shapes.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 605,
@@ -4246,8 +4246,8 @@
           "name": "p455w0rdsLib.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1359,
@@ -4261,8 +4261,8 @@
           "name": "placebo.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 326,
@@ -4276,8 +4276,8 @@
           "name": "quark.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 103858,
@@ -4291,8 +4291,8 @@
           "name": "quickleafdecay.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 297,
@@ -4306,8 +4306,8 @@
           "name": "rangedpumps.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 915,
@@ -4321,8 +4321,8 @@
           "name": "reborncore.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1371,
@@ -4336,8 +4336,8 @@
           "name": "refinedstorage.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 7992,
@@ -4351,8 +4351,8 @@
           "name": "refinedstorageaddons.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 392,
@@ -4366,8 +4366,8 @@
           "name": "rftools.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 78236,
@@ -4381,8 +4381,8 @@
           "name": "rftoolspower.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1426,
@@ -4396,8 +4396,8 @@
           "name": "sgextraparts.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 4877,
@@ -4411,8 +4411,8 @@
           "name": "ExtraRails.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 360,
@@ -4426,8 +4426,8 @@
           "name": "ShadowMC.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 276,
@@ -4441,8 +4441,8 @@
           "name": "silentgems.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 36755,
@@ -4456,8 +4456,8 @@
           "name": "splash.properties",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 376,
@@ -4471,8 +4471,8 @@
           "name": "ShardTiers.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1100,
@@ -4486,8 +4486,8 @@
           "name": "SoulShards.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 7607,
@@ -4501,8 +4501,8 @@
           "name": "stg.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 350,
@@ -4516,8 +4516,8 @@
           "name": "storagedrawers.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 2567,
@@ -4531,8 +4531,8 @@
           "name": "tconstruct.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 6411,
@@ -4546,8 +4546,8 @@
           "name": "energy_priority.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 46,
@@ -4561,8 +4561,8 @@
           "name": "client.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 388,
@@ -4576,8 +4576,8 @@
           "name": "misc.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 638,
@@ -4591,8 +4591,8 @@
           "name": "power.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 390,
@@ -4606,8 +4606,8 @@
           "name": "upgrades.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 479,
@@ -4621,8 +4621,8 @@
           "name": "config.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 513,
@@ -4636,8 +4636,8 @@
           "name": "compat.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1515,
@@ -4651,8 +4651,8 @@
           "name": "generators.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 5289,
@@ -4666,8 +4666,8 @@
           "name": "items.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 2400,
@@ -4681,8 +4681,8 @@
           "name": "machines.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 8566,
@@ -4696,8 +4696,8 @@
           "name": "misc.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 5203,
@@ -4711,8 +4711,8 @@
           "name": "ores.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 4222,
@@ -4726,8 +4726,8 @@
           "name": "recipes.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 768,
@@ -4741,8 +4741,8 @@
           "name": "world.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 883,
@@ -4756,8 +4756,8 @@
           "name": "teslacorelib.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 2146,
@@ -4771,8 +4771,8 @@
           "name": "thaumcraft_graphics.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1095,
@@ -4786,8 +4786,8 @@
           "name": "thaumcraft_misc.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 964,
@@ -4801,8 +4801,8 @@
           "name": "thaumcraft_world.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 2105,
@@ -4816,8 +4816,8 @@
           "name": "thaumicjei.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 868,
@@ -4831,8 +4831,8 @@
           "name": "theoneprobe.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 13201,
@@ -4846,8 +4846,8 @@
           "name": "tinkersaddons.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 721,
@@ -4861,8 +4861,8 @@
           "name": "toastcontrol.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 1926,
@@ -4876,8 +4876,8 @@
           "name": "tombmanygraves.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 6365,
@@ -4891,8 +4891,8 @@
           "name": "traverse.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 2995,
@@ -4906,8 +4906,8 @@
           "name": "main.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 505,
@@ -4921,8 +4921,8 @@
           "name": "dark.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 143,
@@ -4936,8 +4936,8 @@
           "name": "vanilla.json",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 146,
@@ -4951,8 +4951,8 @@
           "name": "waila.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 3379,
@@ -4966,8 +4966,8 @@
           "name": "xnet.cfg",
           "type": "File",
           "required": {
-            "value": false,
-            "def": false
+            "value": true,
+            "def": true
           },
           "artifact": {
             "size": 3654,
