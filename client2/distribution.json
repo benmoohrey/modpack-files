@@ -1,26 +1,17 @@
 {
   "version": "1.0.0",
   "rss": "<LINK TO RSS FEED>",
-  "discord": {
-    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-  },
   "servers": [
     {
       "id": "LBOE-1.12.2",
       "name": "LBOE (Minecraft 1.12.2)",
       "description": "LBOE Running Minecraft 1.12.2 (Forge v14.23.5.2854)",
-      "icon": null,
+      "icon": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/icon.png",
       "version": "1.0.0",
-      "address": "localhost:25565",
+      "address": "192.95.36.158:25592",
       "minecraftVersion": "1.12.2",
-      "discord": {
-        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
-        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
-      },
-      "mainServer": false,
+      
+      "mainServer": true,
       "autoconnect": false,
       "modules": [
         {
