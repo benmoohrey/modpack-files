@@ -362,34 +362,6 @@
           }
         },
         {
-          "id": "generated.forgemod:endercore:1.12.2-0.5.65@jar",
-          "name": "EnderCore",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 639982,
-            "MD5": "b1d22f1a4bcf0ec4b22c4805e2f3a05a",
-            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/forgemods/EnderCore-1.12.2-0.5.65.jar"
-          }
-        },
-        {
-          "id": "generated.forgemod:enderio:5.0.50@jar",
-          "name": "Ender IO",
-          "type": "ForgeMod",
-          "required": {
-            "value": true,
-            "def": true
-          },
-          "artifact": {
-            "size": 7776763,
-            "MD5": "d0b5de7fd97aaf791f4a17bd088e1450",
-            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/forgemods/EnderIO-1.12.2-5.0.50.jar"
-          }
-        },
-        {
           "id": "generated.forgemod:extracells:2.6.2@jar",
           "name": "Extra Cells 2",
           "type": "ForgeMod",
@@ -849,6 +821,21 @@
             "size": 30446,
             "MD5": "6024686e40df10b8739042ea2dce7f1a",
             "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/forgemods/reauth-3.6.0.jar"
+          }
+        },
+        {
+          "id": "EMPTY.txt",
+          "name": "EMPTY.txt",
+          "type": "File",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 0,
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/files/config/EMPTY.txt",
+            "path": "config/EMPTY.txt"
           }
         }
       ]
