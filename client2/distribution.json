@@ -236,6 +236,20 @@
           ]
         },
         {
+          "id": "generated.forgemod:baubles:1.12-1.5.2@jar",
+          "name": "Baubles",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 108450,
+            "MD5": "944dec4ef3fbfd4d498d94a7047af201",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/forgemods/Baubles-1.12-1.5.2.jar"
+          }
+        },
+        {
           "id": "generated.forgemod:betterfps-1.4.8:0.0.0@jar",
           "name": "BetterFps-1.4.8.jar",
           "type": "ForgeMod",
@@ -376,6 +390,20 @@
           }
         },
         {
+          "id": "generated.forgemod:bigreactors:1.12.2-0.4.5.67@jar",
+          "name": "Extreme Reactors",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 1110113,
+            "MD5": "92e5cc48aca43add940af096e7694141",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/forgemods/ExtremeReactors-1.12.2-0.4.5.67.jar"
+          }
+        },
+        {
           "id": "generated.forgemod:fe:1.2.1@jar",
           "name": "Food Expansion",
           "type": "ForgeMod",
@@ -387,6 +415,20 @@
             "size": 81460,
             "MD5": "5005500083ca771356203e93236fa66b",
             "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/forgemods/FoodExpansion1.3.3-1.12.2.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:waila:1.8.26@jar",
+          "name": "Waila",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 453778,
+            "MD5": "bca1c069d9171d331d211d24e8a3b770",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/forgemods/Hwyla-1.8.26-B41_1.12.2.jar"
           }
         },
         {
@@ -541,6 +583,20 @@
             "size": 4023372,
             "MD5": "710d64342d41042b7d6ced891448e727",
             "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/forgemods/TConstruct-1.12.2-2.13.0.183.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:thaumcraft:1.12.2-6.1.BETA26@jar",
+          "name": "Thaumcraft",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 11360786,
+            "MD5": "3b13783ccaafb5d5b9ce8cb85e87fff6",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/forgemods/Thaumcraft-1.12.2-6.1.BETA26.jar"
           }
         },
         {
@@ -821,6 +877,20 @@
             "size": 30446,
             "MD5": "6024686e40df10b8739042ea2dce7f1a",
             "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/forgemods/reauth-3.6.0.jar"
+          }
+        },
+        {
+          "id": "generated.forgemod:zerocore:1.12.2-0.1.2.8@jar",
+          "name": "Zero CORE",
+          "type": "ForgeMod",
+          "required": {
+            "value": true,
+            "def": true
+          },
+          "artifact": {
+            "size": 228623,
+            "MD5": "cc782f73e62792dcdb108449baec110f",
+            "url": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/client2/servers/LBOE-1.12.2/forgemods/zerocore-1.12.2-0.1.2.8.jar"
           }
         },
         {
