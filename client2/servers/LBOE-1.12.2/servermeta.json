@@ -3,13 +3,14 @@
     "version": "1.0.0",
     "name": "LBOE (Minecraft 1.12.2)",
     "description": "LBOE Running Minecraft 1.12.2 (Forge v14.23.5.2854)",
-    "address": "localhost:25565",
+    "address": "192.95.36.158:25592",
+	"icon": "https://raw.githubusercontent.com/benmoohrey/modpack-files/master/icon.png",
     "discord": {
       "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
       "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
     },
-    "mainServer": false,
+    "mainServer": true,
     "autoconnect": false
   },
   "forge": {
