@@ -1,2 +1,2 @@
-# modpack-files
-Files for custom modpack
+# JANK Hosted files for custom minecraft modpack
+
